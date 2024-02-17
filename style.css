@@ -1,0 +1,32 @@
+body{
+    background-color: #CCCC;
+}
+.homebutton{
+float: left;
+}
+.navButtons{
+    float: right;
+    padding:15px;
+}
+.nav {
+    text-align: center; /* Center-align the content horizontally */
+    font-family: Arial;
+    font-size: 25px;
+}
+.info {
+    text-align: center; /* Center-align the content horizontally */
+    padding-top: 100px; /* Adjust the top margin to create space between the nav bar and header */
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+img{
+    display:block;
+    margin-left: 41%;
+    width: 15%;
+    height: auto;
+}
+  
