@@ -29,4 +29,15 @@ img{
     width: 15%;
     height: auto;
 }
-  
+.languages{
+    border-style:solid;
+    background-color: white;
+    padding: 10px;
+    float: left;
+    margin: 1%;
+    text-align: center;
+}
+  .lan_pic{
+    height: 100px;
+    width:100px;
+  }
