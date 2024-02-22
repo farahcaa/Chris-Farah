@@ -3,19 +3,24 @@ body{
 }
 .homebutton{
 float: left;
+    padding: 15px;
 }
 .navButtons{
     float: right;
     padding:15px;
 }
 .nav {
-    text-align: center; /* Center-align the content horizontally */
     font-family: Arial;
     font-size: 25px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width:100%;
+    left: 0%;
 }
 .info {
-    text-align: center; /* Center-align the content horizontally */
-    padding-top: 100px; /* Adjust the top margin to create space between the nav bar and header */
+    text-align: center; 
+    padding-top: 100px; 
 }
 h1{
     font-size: 50px;
