@@ -77,13 +77,17 @@ nav {
 #farahandsons{
     align-items: center;
     width: 50%;
+    justify-content: center;
     height: auto;
+    padding-bottom: 30px;
 }
 #footer-container{
     background-color: white;
     display: flex;
     column-gap: 2rem;
     text-wrap: wrap;
+    height:150px;
+    line-height: 50px;
 }
 .section{
     flex-grow: 1;
@@ -92,4 +96,6 @@ nav {
     padding: 15px;;
     margin: auto;
 }
-
+#farahcontainer{
+  padding-bottom:30px;
+}
