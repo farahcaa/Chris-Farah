@@ -12,7 +12,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    width:100%
+    width:100%;
   }
   
   nav ul {
@@ -76,6 +76,10 @@ nav {
 .skills{
     display:flex;
     flex-wrap:wrap;
+}
+#robo-vid{
+  width: auto;
+  height:clamp(300px,600px,1000px);
 }
 #farahandsons{
     align-items: center;
