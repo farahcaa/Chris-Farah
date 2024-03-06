@@ -79,7 +79,7 @@ nav {
 }
 #robo-vid{
   width: auto;
-  height:clamp(300px,600px,1000px);
+  height:auto;
 }
 #farahandsons{
     align-items: center;
