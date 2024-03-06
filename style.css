@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
     margin:0;
+    padding:0;
 }
 body{
     background-color: #CCCC;
+    overflow-x:hidden
 }
 nav {
     background-color: #f0f0f0;
@@ -13,6 +15,7 @@ nav {
     justify-content: space-between;
     position: fixed;
     width:100%;
+    z-index: 2;
   }
   
   nav ul {
@@ -79,7 +82,7 @@ nav {
 }
 #robo-vid{
   width: auto;
-  height:auto;
+  height:clamp(300px,600px,800px);
 }
 #farahandsons{
     align-items: center;
@@ -94,20 +97,20 @@ nav {
     column-gap: 2rem;
     text-wrap: wrap;
     height:150px;
-    line-height: 50px;
+    line-height: 30px;
+    margin-bottom:0;
+    padding-bottom:0;
 }
 .section{
-    flex-grow: 1;
-    width: 100%;
-    max-width:1280px;
-    padding: 15px;;
-    margin: auto;
+flex-grow:1;
+margin-left: 2%;
+margin-top: 15px;
 }
 #farahcontainer{
   padding-bottom:30px;
   padding-top: 30px;
 }
-ul {
+.socials ul {
   display: flex;
   list-style: none;
   gap: 2.5rem;
