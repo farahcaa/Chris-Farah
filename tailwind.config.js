@@ -7,11 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        B:"#EBEBD3",
-        Bs:"#B07156",
-        Asb:"#7798AB",
-        Black:"#010400",
-        Bo:"#30332E",
+        B: "#EBEBD3",
+        Bs: "#B07156",
+        Asb: "#7798AB",
+        Black: "#010400",
+        Bo: "#30332E",
         color: {
           1: "#AC6AFF",
           2: "#FFC876",

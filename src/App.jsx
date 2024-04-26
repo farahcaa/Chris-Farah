@@ -1,13 +1,11 @@
-import Header from "./components/Header"
-import Section from "./components/Section"
+import Header from "./components/Header";
 
 function App() {
-
   return (
     <>
-  <Header />
+      <Header />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

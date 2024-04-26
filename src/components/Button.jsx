@@ -1,9 +1,9 @@
-import React from 'react'
-
-const button = ({children}) => {
+const button = ({ className, children }) => {
   return (
-    <div>{children}</div>
-  )
-}
+    <div className={`${className || ""} bg-B text-Black rounded-full p-3 px-6`}>
+      {children}
+    </div>
+  );
+};
 
-export default button
+export default button;
