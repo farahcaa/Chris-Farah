@@ -28,7 +28,7 @@ const Header = () => {
   };
 
   return (
-    <div className="w-full right-0 top-0 bg-Bo p-5 flex border-b border-B">
+    <div className=" fixed  w-full z-50 left-0 right-0 top-0 bg-Purple p-5 flex border-b border-B">
       <div className="flex">
         <a>
           <img src={js} width={40} height={40} />
@@ -51,7 +51,7 @@ const Header = () => {
         ))}
       </div>
       <Button
-        className="ml-auto lg:hidden md:hidden hover:py-4 hover:px-7 hover:font-semibold"
+        className="ml-auto lg:hidden md:hidden transform hover:scale-110 duration-300 "
         onClick={toggleNavigation}
       >
         Menu

@@ -1,8 +1,11 @@
-const button = ({ className, children }) => {
+const button = ({ className, children, onclick }) => {
   return (
-    <div className={`${className || ""} bg-B text-Black rounded-full p-3 px-6`}>
+    <button
+      className={`${className || ""} bg-B text-Black rounded-full p-3 px-6`}
+      onClick={onclick}
+    >
       {children}
-    </div>
+    </button>
   );
 };
 

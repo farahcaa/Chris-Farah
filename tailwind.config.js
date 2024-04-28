@@ -12,6 +12,7 @@ export default {
         Asb: "#7798AB",
         Black: "#010400",
         Bo: "#30332E",
+        Purple: "#221C1F",
         color: {
           1: "#AC6AFF",
           2: "#FFC876",

@@ -14,13 +14,13 @@ const Home = () => {
       crossescolor={false}
       crossesOffset="lg:translate-y-[5.25rem]"
     >
-      <div className="flex justify-center items-center p-10 bg-B rounded-full mx-11 ">
+      <div className="flex lg:flex-row flex-col justify-center items-center p-10 bg-B rounded-full mx-11 ">
         <div className="">
           <img src={pic} height={400} width={300} className="rounded-full" />
         </div>
         <div className="p-7">
           <h1 className="h2  text-Bo text-wrap">Hi, My name is Chris Farah</h1>
-          <p className="text-Bo">Student, Developer, Chef, Gym rat</p>
+          <p className="text-Bo">Student, Developer, Aspiring Chef, Gym Rat</p>
           <div className="inline-flex p-5">
             <div className="shadow-md border m-5 border-Black rounded-full p-5 hover:bg-Asb transition duration-300">
               <a target="_blank" href="https://twitter.com/chris_farah_">
