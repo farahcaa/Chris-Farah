@@ -6,6 +6,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      transitionProperty: {
+        spacing: "margin",
+      },
       colors: {
         B: "#EBEBD3",
         Bs: "#B07156",
@@ -77,6 +80,13 @@ export default {
         "conic-gradient":
           "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
       },
+    },
+    screens: {
+      xs: "400px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1289px",
     },
   },
   plugins: [

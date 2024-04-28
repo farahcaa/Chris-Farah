@@ -25,7 +25,7 @@ const Section = ({
       <div
         className={` ${
           crossescolor ? "bg-Bo" : "bg-B"
-        } hidden absolute top-0 left-5 w-0.25 h-full pointer-events-none md:block lg:left-7.5 xl:left-10`}
+        } hidden absolute top-0 z-10 left-5 w-0.25 h-full pointer-events-none md:block lg:left-7.5 xl:left-10`}
       />
       <div
         className={`${
