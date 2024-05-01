@@ -11,6 +11,7 @@ const Home = () => {
     <Section
       className={`bg-Bs`}
       crosses
+      id="Home"
       crossescolor={false}
       crossesOffset="lg:translate-y-[5.25rem]"
     >
