@@ -1,8 +1,11 @@
-import clogo from "../assets/c-logo.jpg";
+import clogo from "../assets/c-logo.png";
 import reactt from "../assets/react.svg";
 import node from "../assets/Nodejs.png";
 import Mongo from "../assets/MongoDB.png";
 import python from "../assets/python.png";
+import Expo from "../assets/expo.png";
+import Docker from "../assets/Docker.png";
+import Git from "../assets/Git.png";
 export const navigation = [
   {
     id: "0",
@@ -31,22 +34,25 @@ export const navigation = [
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
-
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Front-end Tools:",
+    text: "React.js-(React Naitive, Next.js) Styling-tailwind css",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Back-end Tools:",
+    text: "Node.js : Express, Python : Flask",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Databases:",
+    text: "MongoDB ",
+  },
+  {
+    id: "3",
+    title: "IBM Full-Stack Javascript Development Certificate",
   },
 ];
 
@@ -69,14 +75,14 @@ export const collabApps = [
     id: "2",
     title: "Node",
     icon: node,
-    width: 36,
-    height: 28,
+    width: 40,
+    height: 36,
   },
   {
     id: "3",
     title: "MongoDB",
     icon: Mongo,
-    width: 34,
+    width: 40,
     height: 35,
   },
   {
@@ -88,22 +94,22 @@ export const collabApps = [
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: clogo,
+    title: "Expo",
+    icon: Expo,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: clogo,
-    width: 26,
-    height: 34,
+    title: "Docker",
+    icon: Docker,
+    width: 45,
+    height: 45,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: clogo,
+    title: "Github",
+    icon: Git,
     width: 38,
     height: 32,
   },
