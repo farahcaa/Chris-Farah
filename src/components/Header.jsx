@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
-import js from "../assets/js.png";
+import Developer from "../assets/Developer.png";
 import { navigation } from "../constants";
 import Button from "./Button.jsx";
 
@@ -31,7 +31,7 @@ const Header = () => {
     <div className=" fixed  w-full z-50 left-0 right-0 top-0 bg-Purple p-5 flex border-b border-B">
       <div className="flex">
         <a>
-          <img src={js} width={40} height={40} />
+          <img src={Developer} width={40} height={40} />
         </a>
       </div>
       <div className="ml-auto mr-7">
