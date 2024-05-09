@@ -51,8 +51,8 @@ const About = () => {
       <div
         className={`${
           dropdiv
-            ? "bg-Bo z-1 rounded-[5rem] flex flex-col  shadow-lg transform lg:h-[42rem] md:h-[85rem] sm:h-[85rem] xs:h-[85rem] duration-1000"
-            : "bg-Bo z-1 rounded-[5rem] flex flex-col p-4 mb-5 shadow-lg transform h-[9rem] duration-1000"
+            ? "bg-Bo z-3 rounded-[5rem] flex flex-col  shadow-lg transform lg:h-[42rem] md:h-[85rem] sm:h-[85rem] xs:h-[85rem] duration-1000"
+            : "bg-Bo z-3 rounded-[5rem] flex flex-col p-4 mb-5 shadow-lg transform h-[9rem] duration-1000"
         }`}
         onClick={handleClick}
       >
@@ -125,8 +125,8 @@ const About = () => {
       <div
         className={`${
           dropdiv1
-            ? "bg-Asb z-1 rounded-[5rem] flex flex-col  shadow-lg transform xl:h-[50rem] lg:h-[65rem] md:h-[80rem] sm:h-[80rem] xs:h-[90rem] duration-1000"
-            : "bg-Asb z-50 rounded-[5rem] flex flex-col p-4 mb-5 shadow-lg transform h-[9rem] duration-1000"
+            ? "bg-Asb z-0 rounded-[5rem] flex flex-col  shadow-lg transform xl:h-[50rem] lg:h-[65rem] md:h-[80rem] sm:h-[80rem] xs:h-[90rem] duration-1000"
+            : "bg-Asb z-0 rounded-[5rem] flex flex-col p-4 mb-5 shadow-lg transform h-[9rem] duration-1000"
         }`}
         onClick={handleclick2}
       >

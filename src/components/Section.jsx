@@ -30,13 +30,13 @@ const Section = ({
       <div
         className={`${
           crossescolor ? "bg-Bo" : "bg-B"
-        } hidden absolute top-0 right-5 w-0.25 h-full pointer-events-none md:block lg:right-7.5 xl:right-10`}
+        } hidden absolute z-10 top-0 right-5 w-0.25 h-full pointer-events-none md:block lg:right-7.5 xl:right-10`}
       />
 
       {crosses && (
         <>
           <div
-            className={`hidden absolute top-0 left-7.5 right-7.5 h-0.25 ${
+            className={`hidden absolute z-10 top-0 left-7.5 right-7.5 h-0.25 ${
               crossescolor ? "bg-Bo" : "bg-B"
             } ${
               crossesOffset && crossesOffset
