@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import { MouseParallax } from "react-just-parallax";
+import { MouseParallax, ScrollParallax } from "react-just-parallax";
+import { background, Mobile } from "../constants";
 
-export const BackgroundCircles = ({ parallaxRef }) => {
+export const BackgroundCircles = ({ parallaxRef, back }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -9,58 +10,322 @@ export const BackgroundCircles = ({ parallaxRef }) => {
   }, []);
 
   return (
-    <div className="absolute -top-[50.375rem] left-1/2 w-[78rem] aspect-square border border-n-2/5 rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[32rem]">
+    <div
+      className={`absolute -z-1 -bottom-[10rem] hidden lg:block -top-[4.5rem]  w-full `}
+    >
       {/* Moving background colored circle balls */}
       <MouseParallax strength={0.1} parallaxContainerRef={parallaxRef}>
-        <div className="absolute bottom-0 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]">
-          <div
-            className={`w-2 h-2 -ml-1 -mt-36 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
-              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+        <div className="absolute -left-[10rem] bottom-0 w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
-        <div className="ab"></div>
-
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[56deg]">
-          <div
-            className={`w-4 h-4 -ml-1 -mt-32 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
-              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+        <div className="absolute -left-[10rem] bottom-[5rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
-
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[54deg]">
-          <div
-            className={`hidden w-4 h-4 -ml-1 mt-[12.9rem] bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full xl:block transit transition-transform duration-500 ease-out ${
-              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+        <div className="absolute -left-[10rem] bottom-[10rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
-
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[65deg]">
-          <div
-            className={`w-3 h-3 -ml-1.5 mt-52 bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
-              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+        <div className="absolute -left-[10rem] bottom-[15rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
-
-        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom -rotate-[85deg]">
-          <div
-            className={`w-1 h-6 -ml-3 -mt-3 bg-B transition-transform duration-500 ease-out ${
-              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+        <div className="absolute -left-[10rem] bottom-[20rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
-
-        <div className="absolute bottom-1/4 left-1/4 w-0.25 h-1/2 origin-bottom rotate-[70deg]">
-          <div
-            className={`w-1 h-6 -ml-3 -mt-3 bg-B transition-transform duration-500 ease-out ${
-              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          />
+        <div className="absolute -left-[10rem] bottom-[25rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute -left-[10rem] bottom-[30rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute -left-[10rem] bottom-[35rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute -left-[10rem] bottom-[40rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute -left-[10rem] bottom-[45rem] w-0.25  origin-bottom ">
+          <ul className="inline-flex">
+            {background.map((item) => (
+              <li className="px-7" key={item.id}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out ${
+                    mounted
+                      ? "translate-y-0 opacity-100"
+                      : "translate-y-10 opacity-0"
+                  }`}
+                />
+              </li>
+            ))}
+          </ul>
         </div>
       </MouseParallax>
+    </div>
+  );
+};
+export const MobileView = ({ back }) => {
+  return (
+    <div
+      className={`absolute -z-50 -bottom-[3rem] top-0 lg:hidden xs:block sm:block w-full`}
+    >
+      <ScrollParallax isAbsolutelyPositioned>
+        <div className="absolute bottom-[7rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[13rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[18rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[23rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[28rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[33rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[38rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[43rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[48rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="absolute bottom-[53rem] h-5">
+          <ul className="inline-flex ">
+            {Mobile.map((item) => (
+              <li className="px-7" key={item.it}>
+                <div
+                  className={`w-1 h-6 ${
+                    back ? "bg-B" : "bg-Bs"
+                  } rotate-[35deg] transition-transform duration-500 ease-out `}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </ScrollParallax>
     </div>
   );
 };
