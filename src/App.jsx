@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Comingsoon from "./components/Comingsoon";
+import ContactMe from "./components/ContactMe";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
@@ -13,7 +13,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Comingsoon />
+      <ContactMe />
     </>
   );
 }

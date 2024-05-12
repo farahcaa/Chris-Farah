@@ -5,7 +5,13 @@ import { LeftCurve, RightCurve } from "../design/Skillsdesign";
 
 const Skills = () => {
   return (
-    <Section id="Skills" className="bg-Bs" crosses crossescolor={false}>
+    <Section
+      id="Skills"
+      className="bg-Bs"
+      crosses
+      crossesOffset={`lg:translate-y-[5.25rem]`}
+      crossescolor={false}
+    >
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">Full-Stack Development Skills</h2>

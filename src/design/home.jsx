@@ -11,7 +11,7 @@ export const BackgroundCircles = ({ parallaxRef, back }) => {
 
   return (
     <div
-      className={`absolute -z-1 -bottom-[10rem] hidden lg:block -top-[4.5rem] right-0 w-full `}
+      className={`absolute -z-1 -bottom-[10rem] hidden lg:block overflow-hidden -top-[4.5rem] right-0 w-full `}
     >
       {/* Moving background colored circle balls */}
       <MouseParallax strength={0.1} parallaxContainerRef={parallaxRef}>
