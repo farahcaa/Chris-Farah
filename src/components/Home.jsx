@@ -28,12 +28,12 @@ const Home = () => {
               Student, Developer, Aspiring Chef, Gym Rat
             </p>
             <div className="inline-flex p-5">
-              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2  hover:bg-Asb transition duration-300">
+              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2  lg:hover:bg-Asb transition duration-300">
                 <a target="_blank" href="https://twitter.com/chris_farah_">
                   <img src={twitter} />
                 </a>
               </div>
-              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2  hover:bg-Asb transition duration-300">
+              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2  lg:hover:bg-Asb transition duration-300">
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/chrisfarah/"
@@ -41,7 +41,7 @@ const Home = () => {
                   <img src={Linkedin} />
                 </a>
               </div>
-              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2 hover:bg-Asb transition duration-300">
+              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2 lg:hover:bg-Asb transition duration-300">
                 <a
                   target="_blank"
                   href="https://www.instagram.com/chris_farah_/"
