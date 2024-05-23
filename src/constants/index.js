@@ -6,6 +6,9 @@ import python from "../assets/python.png";
 import Expo from "../assets/expo.png";
 import Docker from "../assets/Docker.png";
 import Git from "../assets/Git.png";
+import twitter from "../assets/twitter.png";
+import linkedin from "../assets/Linkedin.png";
+import insta from "../assets/Instagram.png";
 export const navigation = [
   {
     id: "0",
@@ -103,6 +106,28 @@ export const background = [
   { id: 43 },
   { id: 44 },
   { id: 45 },
+];
+export const links = [
+  {
+    id: 1,
+    icon: twitter,
+    href: "https://x.com/chris-farah",
+  },
+  {
+    id: 2,
+    icon: insta,
+    href: "https://instagram.com/chris_farah_",
+  },
+  {
+    id: 3,
+    icon: linkedin,
+    href: "https://linkedin.com/chris-farah",
+  },
+  {
+    id: 4,
+    icon: Git,
+    href: "https://github.com/farahcaa",
+  },
 ];
 export const collabContent = [
   {

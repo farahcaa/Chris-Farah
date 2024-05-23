@@ -1,10 +1,8 @@
 import Section from "./Section";
 import { useRef } from "react";
-import twitter from "../assets/twitter.png";
-import Linkedin from "../assets/Linkedin.png";
-import Instagram from "../assets/Instagram.png";
 import pic from "../assets/portfolio_pic.png";
 import { BackgroundCircles, MobileView } from "../design/home";
+import { links } from "../constants";
 
 const Home = () => {
   return (
@@ -28,33 +26,11 @@ const Home = () => {
               Student, Developer, Aspiring Chef, Gym Rat
             </p>
             <div className="inline-flex p-5">
-              <div className="shadow-md border m-5 p-3 border-Black rounded-full hover:curosr-pointer">
-                <a
-                  target="_blank"
-                  href="https://twitter.com/chris_farah_"
-                  className="p-10"
-                >
-                  <img src={twitter} />
-                </a>
-              </div>
-              <div className="shadow-md border m-5 p-3 border-Black rounded-full hover:curosr-pointer">
-                <a
-                  target="_blank"
-                  href="https://www.linkedin.com/in/chrisfarah/"
-                  className="p-10"
-                >
-                  <img src={Linkedin} />
-                </a>
-              </div>
-              <div className="shadow-md border m-5 p-3 border-Black rounded-full hover:curosr-pointer">
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/chris_farah_/"
-                  className="p-10"
-                >
-                  <img src={Instagram} />
-                </a>
-              </div>
+              {links.map((item) => {
+                <a key={item.id} href={item.href} className="border p-5 m-5">
+                  <img src={item.icon} width={50} />
+                </a>;
+              })}
             </div>
           </div>
         </div>
