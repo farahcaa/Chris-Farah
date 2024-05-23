@@ -29,7 +29,7 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "Contact",
+    title: "Contact Me",
     url: "#Contact",
   },
 ];

@@ -37,10 +37,10 @@ const Header = () => {
       </div>
       <nav
         className={`${
-          openNavigation ? "flex" : "hidden"
+          openNavigation ? "flex " : "hidden"
         } fixed top-[5rem] left-0 right-0 bottom-0 lg:static xl:flex lg:flex lg:ml-auto`}
       >
-        <div className="ml-auto static z-5 flex lg:flex-row items-center justify-center md:flex-col sm:flex-col xs:flex-col">
+        <div className="ml-auto static z-5 flex lg:flex-row items-center justify-center md:flex-col sm:flex-col xs:flex-col w-full">
           {navigation.map((item) => (
             <a
               key={item.id}
@@ -50,6 +50,11 @@ const Header = () => {
                 item.url === pathname.hash
                   ? "z-2 lg:text-n-1"
                   : " z-2 lg:text-n-1/50"
+              }
+              ${
+                openNavigation
+                  ? "rounded-full bg-B px-5 my-2 text-Bo justify-center"
+                  : ""
               }`}
             >
               {item.title}

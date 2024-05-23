@@ -21,30 +21,36 @@ const Home = () => {
             <img src={pic} height={400} width={300} className="rounded-full" />
           </div>
           <div className="p-7">
-            <h1 className="h2  text-Bo text-wrap">
+            <h1 className="h2 px-5 text-Bo text-wrap">
               Hi, My name is Chris Farah
             </h1>
-            <p className="text-Bo">
+            <p className="text-Bo px-5">
               Student, Developer, Aspiring Chef, Gym Rat
             </p>
             <div className="inline-flex p-5">
-              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2  lg:hover:bg-Asb transition duration-300">
-                <a target="_blank" href="https://twitter.com/chris_farah_">
+              <div className="shadow-md border m-5 p-3 border-Black rounded-full hover:curosr-pointer">
+                <a
+                  target="_blank"
+                  href="https://twitter.com/chris_farah_"
+                  className="p-10"
+                >
                   <img src={twitter} />
                 </a>
               </div>
-              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2  lg:hover:bg-Asb transition duration-300">
+              <div className="shadow-md border m-5 p-3 border-Black rounded-full hover:curosr-pointer">
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/chrisfarah/"
+                  className="p-10"
                 >
                   <img src={Linkedin} />
                 </a>
               </div>
-              <div className="shadow-md border m-5 border-Black rounded-full p-5 xs:m-2 lg:hover:bg-Asb transition duration-300">
+              <div className="shadow-md border m-5 p-3 border-Black rounded-full hover:curosr-pointer">
                 <a
                   target="_blank"
                   href="https://www.instagram.com/chris_farah_/"
+                  className="p-10"
                 >
                   <img src={Instagram} />
                 </a>
