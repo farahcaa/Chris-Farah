@@ -6,6 +6,7 @@ import python from "../assets/python.png";
 import Expo from "../assets/expo.png";
 import Docker from "../assets/Docker.png";
 import Git from "../assets/Git.png";
+import Github from "../assets/Github.png";
 import twitter from "../assets/twitter.png";
 import linkedin from "../assets/Linkedin.png";
 import insta from "../assets/Instagram.png";
@@ -111,22 +112,22 @@ export const links = [
   {
     id: 1,
     icon: twitter,
-    href: "https://x.com/chris-farah",
+    href: "https://x.com/Chris_Farah_",
   },
   {
     id: 2,
     icon: insta,
-    href: "https://instagram.com/chris_farah_",
+    href: "https://www.instagram.com/chris_farah_/",
   },
   {
     id: 3,
     icon: linkedin,
-    href: "https://linkedin.com/chris-farah",
+    href: "https://www.linkedin.com/in/chrisfarah/",
   },
   {
     id: 4,
-    icon: Git,
-    href: "https://github.com/farahcaa",
+    icon: Github,
+    href: "https://github.com/farahcaa/farahcaa/blob/main/README.md",
   },
 ];
 export const collabContent = [

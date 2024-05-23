@@ -25,12 +25,16 @@ const Home = () => {
             <p className="text-Bo px-5">
               Student, Developer, Aspiring Chef, Gym Rat
             </p>
-            <div className="inline-flex p-5">
-              {links.map((item) => {
-                <a key={item.id} href={item.href} className="border p-5 m-5">
+            <div className="inline-flex p-2 justify-center lg:w-[20rem] w-full items-center">
+              {links.map((item) => (
+                <a
+                  key={item.id}
+                  href={item.href}
+                  className="border border-black rounded-full flex p-2 m-2 xs:m-1 xs:p-1"
+                >
                   <img src={item.icon} width={50} />
-                </a>;
-              })}
+                </a>
+              ))}
             </div>
           </div>
         </div>
