@@ -31,7 +31,7 @@ const Header = () => {
   return (
     <div className=" fixed  w-full z-2 left-0 right-0 top-0 bg-Purple p-5 flex border-b border-B">
       <div className="flex sm:items-center xs:items-center">
-        <a>
+        <a className="pl-7">
           <img src={Developer} width={40} height={40} />
         </a>
       </div>

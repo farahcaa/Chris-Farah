@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { MouseParallax, ScrollParallax } from "react-just-parallax";
 import { background, Mobile } from "../constants";
 
-export const BackgroundCircles = ({ parallaxRef, back }) => {
+export const BackgroundCircles = ({ parallaxRef, back, className }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -10,9 +10,7 @@ export const BackgroundCircles = ({ parallaxRef, back }) => {
   }, []);
 
   return (
-    <div
-      className={`absolute -z-1 -bottom-[10rem] hidden lg:block overflow-hidden -top-[4.5rem] right-0 w-full `}
-    >
+    <div className={`${className || ""} `}>
       {/* Moving background colored circle balls */}
       <MouseParallax strength={0.1} parallaxContainerRef={parallaxRef}>
         <div className="absolute -left-[10rem] bottom-0 w-0.25  origin-bottom ">

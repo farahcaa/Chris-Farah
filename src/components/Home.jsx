@@ -38,7 +38,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <BackgroundCircles back={true} />
+        <BackgroundCircles
+          back={true}
+          className={
+            "absolute -z-1 -bottom-[10rem] hidden lg:block overflow-hidden -top-[4.5rem] right-0 w-full"
+          }
+        />
         <MobileView back={true} />
       </div>
     </Section>
