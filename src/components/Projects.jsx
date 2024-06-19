@@ -18,6 +18,13 @@ const Projects = () => {
         >
           Project 1 react website
         </a>
+        <a
+          className="text-Bs text-[2rem] p-10 underline"
+          target="_blank"
+          href="https://banking-app-psi-amber.vercel.app/"
+        >
+          Project 2 next.js banking application
+        </a>
       </div>
     </Section>
   );
