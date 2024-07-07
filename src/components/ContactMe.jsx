@@ -2,6 +2,7 @@ import Section from "./Section";
 import { useState } from "react";
 import { send } from "emailjs-com";
 import { BackgroundCircles, MobileView } from "../design/home";
+import PopupMessage from "./PopupMessage";
 const ContactMe = () => {
   const [toSend, setToSend] = useState({
     from_name: "",
@@ -67,12 +68,7 @@ const ContactMe = () => {
               value={toSend.reply_to}
               onChange={handleChange}
             />
-            <button
-              className="rounded-full bg-Asb border border-Purple shadow-2xl p-10 text-[2rem] "
-              type="submit"
-            >
-              Send
-            </button>
+            <PopupMessage />
           </form>
         </div>
         <BackgroundCircles
