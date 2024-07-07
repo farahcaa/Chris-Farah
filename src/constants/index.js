@@ -134,7 +134,7 @@ export const collabContent = [
   {
     id: "0",
     title: "Front-end Tools:",
-    text: "React.js-(React Naitive, Next.js) Styling-tailwind css",
+    text: "React.js-(Ionic, Next.js) Styling-tailwind css",
   },
   {
     id: "1",

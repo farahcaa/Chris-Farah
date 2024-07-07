@@ -13,9 +13,9 @@ const Footer = () => {
           {links.map((item) => (
             <a
               key={item}
-              href={item.url}
+              href={item.href}
               target="_blank"
-              className="flex items-center justify-center w-15 h-15 bg-Bo rounded-full transition-colors hover:bg-n-6"
+              className="flex items-center justify-center w-15 h-15 bg-Bo rounded-full hover:cursor-pointer transition-colors hover:bg-n-6"
             >
               <img src={item.icon} width={40} height={16} alt={item.title} />
             </a>

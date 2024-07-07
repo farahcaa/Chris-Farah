@@ -22,9 +22,7 @@ const Home = () => {
             <h1 className="h2 px-5 text-Bo text-wrap">
               Hi, My name is Chris Farah
             </h1>
-            <p className="text-Bo px-5">
-              Student, Developer, Aspiring Chef, Gym Rat
-            </p>
+            <p className="text-Bo px-5">Student, Developer</p>
             <div className="inline-flex p-2 justify-center lg:w-[20rem] w-full items-center">
               {links.map((item) => (
                 <a

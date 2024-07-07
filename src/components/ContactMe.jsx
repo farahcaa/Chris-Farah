@@ -47,15 +47,15 @@ const ContactMe = () => {
               className="px-5 lg:w-[40rem] w-[30rem] h-20 m-5 bg-Purple rounded-full"
               type="text"
               name="from_name"
-              placeholder="  Your name"
+              placeholder="Your name"
               value={toSend.from_name}
               onChange={handleChange}
             />
-            <input
-              className="px-5 lg:w-[40rem] w-[30rem] h-20 m-5 rounded-full bg-Purple"
+            <textarea
+              className="p-5 lg:w-[40rem] w-[30rem] h-52 m-5 rounded-[4rem] bg-Purple"
               type="text"
               name="message"
-              placeholder="  Your message"
+              placeholder="Your message"
               value={toSend.message}
               onChange={handleChange}
             />
