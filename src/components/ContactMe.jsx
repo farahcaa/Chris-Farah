@@ -37,7 +37,7 @@ const ContactMe = () => {
     >
       <div className=" relative flex flex-col z-1 justify-center items-center pb-10">
         <div className="h-50 my-10 bg-Bo rounded-full shadow-2xl border-4 border-Purple p-5">
-          <h1 className="text-Asb  text-8xl">Contact Me!</h1>
+          <h1 className="text-Asb  xs:text-5xl sm:text-8xl">Contact Me!</h1>
         </div>
         <div>
           <form
@@ -45,7 +45,7 @@ const ContactMe = () => {
             className="flex flex-col items-center w-[100vh] "
           >
             <input
-              className="px-5 lg:w-[40rem] w-[30rem] h-20 m-5 bg-Purple rounded-full"
+              className="px-5 lg:w-[40rem] xs:w-[20rem] sm:w-[30rem] h-20 m-5 bg-Purple rounded-full"
               type="text"
               name="from_name"
               placeholder="Your name"
@@ -53,7 +53,7 @@ const ContactMe = () => {
               onChange={handleChange}
             />
             <textarea
-              className="p-5 lg:w-[40rem] w-[30rem] h-52 m-5 rounded-[4rem] bg-Purple"
+              className="p-5 lg:w-[40rem] xs:w-[20rem] sm:w-[30rem] h-52 m-5 rounded-[4rem] bg-Purple"
               type="text"
               name="message"
               placeholder="Your message"
@@ -61,7 +61,7 @@ const ContactMe = () => {
               onChange={handleChange}
             />
             <input
-              className="px-5 lg:w-[40rem] w-[30rem] h-20 m-5 bg-Purple rounded-full"
+              className="px-5 lg:w-[40rem] xs:w-[20rem] sm:w-[30rem] h-20 m-5 bg-Purple rounded-full"
               type="text"
               name="reply_to"
               placeholder="  Your email"
