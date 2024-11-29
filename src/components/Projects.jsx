@@ -97,7 +97,7 @@ const Projects = () => {
               company. It was built using react.js and Tailwind CSS.
             </p>
             <a
-              href="https://farahcaa.github.io/farahandsonsv2/"
+              href="https://farahandsons.com"
               target="_blank"
               className="invisible group-hover:visible text-Black underline font-semibold xs:text-xl lg:text-3xl justify-center md:p-10 lg:p-0 text-center hover:cursor-pointer"
             >
