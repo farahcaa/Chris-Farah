@@ -34,6 +34,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages  # The branch where your app will be deployed (default is 'gh-pages')
-          folder: build     # Folder that contains the build output of your React app
+          folder: /build     # Folder that contains the build output of your React app
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically created secret token for authentication
