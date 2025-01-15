@@ -12,7 +12,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
-
     </HashRouter>
   </React.StrictMode>
 );
