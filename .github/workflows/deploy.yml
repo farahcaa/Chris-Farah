@@ -27,7 +27,7 @@ jobs:
 
       # Create a CNAME file for custom domain
       - name: Create CNAME for custom domain
-        run: echo 'www.yourdomain.com' > build/CNAME  # Replace with your custom domain
+        run: echo 'www.chris-farah.com' > public/CNAME  # Replace with your custom domain
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
