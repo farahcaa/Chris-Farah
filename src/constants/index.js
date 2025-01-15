@@ -14,28 +14,33 @@ export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#Home",
+    url: "/#Home",
   },
   {
     id: "1",
     title: "About",
-    url: "#About",
+    url: "/#About",
   },
   {
     id: "2",
     title: "Skills",
-    url: "#Skills",
+    url: "/#Skills",
   },
   {
     id: "3",
     title: "Projects",
-    url: "#Projects",
+    url: "/#Projects",
   },
   {
     id: "4",
     title: "Contact Me",
-    url: "#Contact",
+    url: "/#Contact",
   },
+  {
+    id: "5",
+    title: "Blog",
+    url: "/blog",
+  }
 ];
 export const Mobile = [
   { id: 0 },
