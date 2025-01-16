@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import Developer from "../assets/Developer.png";
 import { navigation } from "../constants";
@@ -42,7 +42,7 @@ const Header = () => {
       >
         <div className="ml-auto static z-5 flex lg:flex-row items-center justify-center md:flex-col sm:flex-col xs:flex-col w-full">
           {navigation.map((item) => (
-            <a
+            <Link
               key={item.id}
               href={item.url}
               onClick={handleClick}
@@ -58,7 +58,7 @@ const Header = () => {
               }`}
             >
               {item.title}
-            </a>
+            </Link>
           ))}
         </div>
         <MenuBackdrop openNav={openNavigation} />
