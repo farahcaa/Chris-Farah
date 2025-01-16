@@ -1,4 +1,4 @@
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 import Developer from "../assets/Developer.png";
 import { navigation } from "../constants";
@@ -9,6 +9,7 @@ import MenuBackdrop from "../design/header.jsx";
 
 const Header = () => {
   const pathname = useLocation();
+
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -61,6 +62,7 @@ const Header = () => {
               {item.title}
             </a>
           ))}
+  
         </div>
         <MenuBackdrop openNav={openNavigation} />
       </nav>
