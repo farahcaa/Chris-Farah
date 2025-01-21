@@ -1,15 +1,15 @@
-import React from "react";
-
-const BlogComponent = () => {
+const BlogComponent = ({ text, title, img }) => {
   return (
-    <div className="mt-20 flex border border-white h-[75vh]">
-      <div className="flex justify-center items-center w-1/2 ">
-        <h1 className="text-center flex items-center justify-center w-1/2">
-          welcome to the first of many blogs Here I will be talking about my
-          progress in digitial entrepenuership at the university of cincinnati
+    <div className=" my-20 flex lg:flex-row md:flex-col">
+      <div className="flex justify-center flex-col items-center lg:w-1/2 md:w-full ">
+        <h1 className="text-4xl font-bold my-3">{title}</h1>
+        <h1 className="text-center flex items-center justify-center w-3/4">
+          {text}
         </h1>
       </div>
-      <div></div>
+      <div className="flex justify-center items-center lg:w-1/2 md:w-full">
+        <img src={img} alt="blog" className="flex w-4/6 shadow-xl rounded-lg" />
+      </div>
     </div>
   );
 };

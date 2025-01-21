@@ -40,8 +40,21 @@ export const navigation = [
     id: "5",
     title: "Blog",
     url: "/blog",
-  }
+  },
 ];
+export const BlogInfo = [
+  {
+    title: "Digital Entrepreneurship ",
+    text: "Hello and welcome to my digital entrepreneurship blog! This blog is for my Digital Entrepreneurship class at the University of Cincinnati. I will be posting weekly updates on my progress in the class, as well as sharing tips and tricks for aspiring entrepreneurs. I hope you enjoy reading!",
+    img: "https://gifdb.com/images/high/cute-wave-emoji-hand-59s88kk0zj3xho40.gif",
+  },
+  {
+    title: "Blog 01 Introduction",
+    text: "My name is Chris Farah, and I am a Junior here at UC studying computer science. I love software development and as such I am taking this class to learn about Digital Entrepreneurship and business models that digital businesses use to generate revenue and succeed online. I enjoy creating user-facing applications and the backends to support them. Seeing well-crafted applications with fantastic UX/UI (user experience and user interfaces) encourages me to design and develop my own applications. I have designed and created a few web applications such as this one and others featured on my page, and I am currently working on a functional website that users can purchase products and have them shipped to them. I am also working as a software engineer at Honeywell Intelligrated. I hope to learn about entrepreneurship and how to support an online business and learn from the wisdom of someone who has set out and started a business. This course contains lots of topics of interest for me such as emerging technologies that I hope will motivate me to innovate and create new software projects. In the future I would like to start my own business once an idea worthwhile comes my way and my hope is this class can prepare me enough that when the time comes, I am ready and capable of analyzing and starting my adventure. I am excited to start my journey into digital entrepreneurship with Professor Shewman and a great class and I hope that it will produce memories that will last a lifetime.",
+    img: "https://wallpaperaccess.com/full/4391662.jpg",
+  },
+];
+
 export const Mobile = [
   { id: 0 },
   { id: 1 },
