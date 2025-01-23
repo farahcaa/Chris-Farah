@@ -7,7 +7,7 @@ const BlogComponent = ({ text, title, img }) => {
           {text}
         </h1>
       </div>
-      <div className="flex justify-center items-center lg:w-1/2 xs:w-full">
+      <div className="flex justify-center items-center lg:w-1/2 xs:w-full my-10">
         <img src={img} alt="blog" className="flex w-4/6 shadow-xl rounded-lg" />
       </div>
     </div>

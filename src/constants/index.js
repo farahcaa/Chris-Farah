@@ -45,7 +45,7 @@ export const navigation = [
 export const BlogInfo = [
   {
     title: "Digital Entrepreneurship ",
-    text: "Hello and welcome to my digital entrepreneurship blog! This blog is for my Digital Entrepreneurship class at the University of Cincinnati. I will be posting weekly updates on my progress in the class, as well as sharing tips and tricks for aspiring entrepreneurs. I hope you enjoy reading!",
+    text: "Hello and welcome to my digital entrepreneurship blog! This blog is for my Digital Entrepreneurship class at the University of Cincinnati. I will be posting weekly updates on my progress in the class. I hope you enjoy reading!",
     img: "https://gifdb.com/images/high/cute-wave-emoji-hand-59s88kk0zj3xho40.gif",
   },
   {
