@@ -58,6 +58,11 @@ export const BlogInfo = [
     text: "If I had no choice but to invest 1 million dollars in either GoPro or 23 and me, I would most likely choose 23 and Me. Both 23 and Me and GoPro are companies which previously had giant shares in their respective markets. GoPro's propositional value is that they will provide you with equipment to record stunts and 23 and Me provides a service to get your DNA code and give you fun metrics associated with it. GoPro had a nice grip on the market in their prime with their brand being a staple of stunt recording equipment. I think GoPro does not have any value proposition that would guarantee its spot on the throne. 23 and Me, however, has had a recent scandal with its data being breached. With that being said, I would still invest there. I think that 23 and me have tons of data from its users that it can use to create new products and offer more to their value proposition. As of right now 23 and Me has lots of costs associated with their brand such as shipping the sample packages storing all the sample packages as well as testing the samples and uploading the data to the right spots online. For GoPro they have the cost of production, shipping to consumers, and web applications or mobile applications if they have them. I think 23 and Me have more room to pivot with their value proposition. With the DNA of hundreds of thousands of people they can work with other companies to create services geared toward that, for example they could work with medical professionals and create a new service that would scan your DNA for possible genetic mutations and with science constantly evolving They can sit until the right move presents itself.",
     img: "https://i.ytimg.com/vi/vJ_R3Zquq7g/hqdefault.jpg",
   },
+  {
+    title: "Blog 03 Digital Ad",
+    text: "",
+    img: "https://www.uc.edu/news/articles/2022/05/n21087122/_jcr_content/main/responsive_section/par/textimage/image.img.jpeg/1651865176655/calhoun-reno3.jpeg",
+  },
 ];
 
 export const Mobile = [
