@@ -10,6 +10,7 @@ import Github from "../assets/Github.png";
 import twitter from "../assets/twitter.png";
 import linkedin from "../assets/Linkedin.png";
 import insta from "../assets/Instagram.png";
+import RAI from "../assets/Rai.png";
 export const navigation = [
   {
     id: "0",
@@ -72,6 +73,11 @@ export const BlogInfo = [
     title: "Blog 05 Digital Ad 2",
     text: "One of the most exciting emerging technologies right now is Neuralink. The idea of connecting the human brain directly to computers with high-bandwidth interfaces has serious potential, both in the medical field and beyond. At the moment, the focus is on helping people with paralysis control devices with their thoughts, which is already a huge breakthrough. But long-term, this tech could completely change how humans interact with machines. Instead of relying on keyboards, touchscreens, or voice commands, people could communicate directly with computers, making everything from coding to research way more efficient.What really makes this exciting is the potential for brain-computer interfaces to enhance human cognition. AI is advancing fast, and right now, people are limited by how quickly they can process and interact with information. Neuralink could remove that bottleneck, letting humans keep up with AI instead of falling behind. In theory, it could lead to faster learning, better memory retention, and even direct communication between people without speaking.  Of course, there are major challenges—brain surgery isn’t exactly a casual thing, and security risks are a real concern. But if Neuralink (or a similar technology) succeeds, it could redefine how people work, learn, and interact with the world. It’s still early, but the possibilities are hard to ignore.",
     img: "https://th.bing.com/th/id/OIP.AxbierWJvdW3oU1-YhjyQAHaE8?rs=1&pid=ImgDetMain",
+  },
+  {
+    title: "Blog 06 Biggest Failure",
+    text: "I'd say my biggest failure to date was my failure to build Research.ai, a project I started with the goal of helping people streamline their research using AI. The idea was to build a tool where users could input a topic and get back well-organized summaries, citations, and deeper insights without having to dig through pages of search results. It was ambitious, and I was excited about the potential impact it could have on students, professionals, and lifelong learners. However, I ran into several problems—technical challenges, scope creep, and a lack of clear direction. I tried to handle everything myself, from frontend to backend to AI integration, and quickly became overwhelmed. On top of that, I didn’t do enough market validation early on. I was building something I thought was cool without confirming that there was a real demand or that I understood my users well enough. The biggest lesson I learned from that experience was the importance of focus, iteration, and validation. I realized that successful products don’t need to start big—they need to start small and solve a real, specific problem well. I also learned that getting feedback early and often can help you pivot before investing too much time into the wrong direction. Even though Research.ai didn’t work out, I came away from the project with stronger technical skills, a better sense of product design, and a more realistic approach to launching software. Looking back, I don't regret attempting it—it was one of the most educational failures I've had and it’s definitely shaped how I approach projects now.",
+    img: RAI,
   },
 ];
 
