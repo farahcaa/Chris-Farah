@@ -41,7 +41,6 @@ const Header = () => {
           openNavigation ? "flex " : "hidden"
         } fixed top-[5rem] left-0 right-0 bottom-0 lg:static xl:flex lg:flex lg:ml-auto`}
       >
-        
         <div className="ml-auto static z-5 flex lg:flex-row items-center justify-center md:flex-col sm:flex-col xs:flex-col w-full">
           {navigation.map((item) => (
             <a
@@ -55,14 +54,13 @@ const Header = () => {
               }
               ${
                 openNavigation
-                  ? "rounded-full bg-B px-5 my-2 text-Bo justify-center"
+                  ? "rounded-full bg-B px-5 my-2 text-neutral-900 justify-center"
                   : ""
               }`}
             >
               {item.title}
             </a>
           ))}
-  
         </div>
         <MenuBackdrop openNav={openNavigation} />
       </nav>
