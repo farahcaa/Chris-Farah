@@ -47,7 +47,7 @@ const Header = () => {
               key={item.id}
               href={item.url}
               onClick={handleClick}
-              className={`p-3 md:inline-flex  z-5 text-white lg:inline-flex text-xl  ${
+              className={`p-3 md:inline-flex  z-5 text-neutral-900 lg:inline-flex text-xl  ${
                 item.url === pathname.hash
                   ? "z-2 lg:text-n-1"
                   : " z-2 lg:text-n-1/50"
