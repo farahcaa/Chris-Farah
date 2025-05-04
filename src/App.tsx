@@ -1,13 +1,20 @@
-import { BrowserRouter, Routes, Route } from "react-router";
-import Layout from "./layout/Layout";
+import { BrowserRouter, Route, Routes } from "react-router";
+import Layout from "./components/layout/Layout";
+
+import Page from "./pages/Page";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}></Route>
-      </Routes>
-    </BrowserRouter>
+    // Default font is Times New Roman
+    <div className="font-['Roboto_Mono']">
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Page />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
