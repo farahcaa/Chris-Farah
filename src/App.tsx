@@ -2,6 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import Layout from "./components/layout/Layout";
 
 import Page from "./pages/Page";
+import Blog from "./pages/Blog/Blog";
+import BlogTopic from "./pages/Blog/BlogTopic";
+import AboutMePage from "./pages/AboutMe/AboutMe";
 
 function App() {
   return (
@@ -11,6 +14,10 @@ function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Page />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogTopic />} />
+            <Route path="/about" element={<AboutMePage />} />
+            <Route path="*" element={<Page />} />
           </Route>
         </Routes>
       </BrowserRouter>
