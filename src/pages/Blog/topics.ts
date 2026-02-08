@@ -16,9 +16,9 @@ export const BLOG_TOPICS: BlogTopic[] = [
       "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80",
   },
   {
-    slug: "somefunny-book-line",
-    title: "SomeFunny Book Line",
-    subtitle: "Notes, quotes, and the occasional ridiculous takeaway.",
+    slug: "book-reviews",
+    title: "Book Reviews",
+    subtitle: "Notes from recent books that will comprise my take away message",
     coverImage:
       "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1600&q=80",
   },

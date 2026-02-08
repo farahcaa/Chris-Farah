@@ -11,8 +11,7 @@ type AboutMeProps = {
 export default function AboutMePage({
   name = "Chris",
   university = "University of Cincinnati",
-  major = "Software Engineering",
-  hostCountry = "Germany",
+  major = "Computer Science",
   semester = "Spring 2026",
 }: AboutMeProps) {
   return (
@@ -24,16 +23,16 @@ export default function AboutMePage({
           <div className="flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold tracking-wide text-slate-500">
-                About Me • International Co-op Journal
+                About Me
               </p>
               <h1 className="mt-2 text-4xl md:text-5xl font-extrabold tracking-tight">
                 Hi, I’m {name} 👋
               </h1>
               <p className="mt-4 text-lg leading-relaxed text-slate-700">
                 I’m a {major} student at {university} completing an
-                international co-op experience in {hostCountry}. This page
-                introduces who I am, what I’m learning, and what you’ll find
-                throughout my e-portfolio.
+                international co-op experience in Germany. This page introduces
+                who I am, what I’m learning, and what you’ll find throughout my
+                e-portfolio.
               </p>
 
               <div className="mt-6 flex flex-wrap gap-2">
@@ -43,37 +42,14 @@ export default function AboutMePage({
                 <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700 ring-1 ring-slate-200">
                   International Co-op • {semester}
                 </span>
-                <span className="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700 ring-1 ring-slate-200">
-                  Host Culture Integration
-                </span>
               </div>
             </div>
 
             {/* Photo / video placeholder */}
             <div className="w-full md:w-[320px]">
               <div className="aspect-[4/5] w-full overflow-hidden rounded-3xl bg-slate-100 ring-1 ring-slate-200 shadow-sm">
-                {/* Replace this block with an <img> or <video> */}
-                <div className="flex h-full flex-col items-center justify-center px-6 text-center">
-                  <div className="text-sm font-semibold text-slate-700">
-                    Add a photo or video of you
-                  </div>
-                  <p className="mt-2 text-sm text-slate-600">
-                    Replace this with:
-                    <span className="block mt-1 font-mono text-xs text-slate-500">
-                      {"<img src='/me.jpg' alt='Chris' />"}
-                    </span>
-                    or
-                    <span className="block mt-1 font-mono text-xs text-slate-500">
-                      {"<video src='/intro.mp4' controls />"}
-                    </span>
-                  </p>
-                </div>
+                <img src="/HeadShot.JPG" alt="Chris" />
               </div>
-
-              <p className="mt-3 text-xs text-slate-500">
-                Tip: Use a professional headshot or a photo at your co-op site /
-                in your host city.
-              </p>
             </div>
           </div>
         </header>
@@ -92,7 +68,7 @@ export default function AboutMePage({
             <div className="mt-4 grid gap-3">
               <InfoRow label="University" value={university} />
               <InfoRow label="Major" value={major} />
-              <InfoRow label="Host Country" value={hostCountry} />
+
               <InfoRow label="Co-op Term" value={semester} />
             </div>
           </Card>
@@ -103,42 +79,60 @@ export default function AboutMePage({
               <li className="flex gap-3">
                 <Dot />
                 <span>
-                  Building strong foundations in software engineering principles
-                  and real-world development workflows.
+                  Developing full-stack engineering skills across frontend,
+                  backend, and infrastructure, with a focus on building
+                  reliable, production-ready systems.
                 </span>
               </li>
               <li className="flex gap-3">
                 <Dot />
                 <span>
-                  Applying coursework to projects involving backend services,
-                  system design, and full-stack features.
+                  Applying technical coursework to real projects involving
+                  system design, APIs, databases, and scalable application
+                  architecture.
+                </span>
+              </li>
+              <li className="flex gap-3">
+                <Dot />
+                <span>
+                  Complementing my technical background with MBA studies,
+                  focusing on product strategy, business fundamentals, and
+                  decision-making at scale.
                 </span>
               </li>
               <li className="flex gap-3">
                 <Dot />
                 <span>
                   Learning through iteration: shipping, getting feedback, and
-                  improving the clarity and maintainability of my work.
+                  continuously improving the clarity, performance, and
+                  maintainability of my work.
                 </span>
               </li>
             </ul>
           </Card>
-
           {/* What I like to do and learn */}
           <Card title="What I Like to Do & Learn">
             <div className="flex flex-wrap gap-2">
+              {/* Technical interests */}
               <Pill text="Backend development" />
               <Pill text="System design" />
               <Pill text="DevOps / CI/CD" />
-              <Pill text="Building products" />
               <Pill text="Performance & debugging" />
+              <Pill text="Building products" />
+
+              {/* Personal interests */}
+              <Pill text="Weight lifting & fitness" />
+              <Pill text="Reading" />
+              <Pill text="Socializing" />
               <Pill text="Language learning" />
               <Pill text="Exploring new cities" />
               <Pill text="Cross-cultural communication" />
             </div>
+
             <p className="mt-4 text-slate-700 leading-relaxed">
-              I’m especially motivated by work that connects people, solves real
-              problems, and improves how teams build and operate software.
+              I’m driven by curiosity and discipline. I like figuring out how
+              things work and sticking with them long enough to actually get
+              good.
             </p>
           </Card>
         </section>
@@ -157,32 +151,27 @@ export default function AboutMePage({
               <li className="flex gap-3">
                 <Dot />
                 <span>
-                  Building software projects that emphasize clean architecture,
-                  reliability, and user-centered features.
+                  Designing and building a full-stack application end-to-end,
+                  taking it from idea to a working platform and iterating on it
+                  based on real constraints.
                 </span>
               </li>
               <li className="flex gap-3">
                 <Dot />
                 <span>
-                  Developing comfort working in an international environment and
-                  adapting to new cultural norms and communication styles.
+                  Working on performance-critical scientific software, profiling
+                  runtime behavior, and making targeted optimizations based on
+                  real measurements.
                 </span>
               </li>
             </ul>
-
-            <p className="mt-4 text-xs text-slate-500">
-              (We can refine this list later with your specific projects, tools,
-              or wins from this semester.)
-            </p>
           </Card>
 
           <Card title="Dreams & Future Goals (UC and Beyond)">
             <p className="text-slate-700 leading-relaxed">
               Long-term, I want to grow into a software engineer who can design
               scalable systems, lead projects end-to-end, and build products
-              that positively impact communities. I’m interested in continuing
-              to strengthen my communication, critical thinking, and
-              cross-cultural collaboration skills—especially in global teams.
+              that positively impact communities.
             </p>
 
             <div className="mt-4 grid gap-3">
@@ -208,34 +197,58 @@ export default function AboutMePage({
             <h2 className="text-2xl font-bold tracking-tight">
               What You’ll Find in This Learning Portfolio
             </h2>
+
             <p className="mt-3 text-slate-700 leading-relaxed">
-              This e-portfolio is my electronic journal of transitioning into a
-              host culture while developing professionally on co-op. I’ll share
-              reflections, challenges, and growth moments—both inside the
-              workplace and in everyday life abroad.
+              This e-portfolio is a running record of my time in my host
+              country, what I’m learning at work, how I’m adapting to a new
+              environment, and the experiences that stand out along the way.
+              It’s part reflection, part documentation, and part personal log of
+              things I find interesting or worth thinking about.
             </p>
 
             <div className="mt-6 grid gap-4 md:grid-cols-3">
               <MiniCard
-                title="Global Awareness"
-                body="Reflections on cultural differences, daily life, and how my perspectives evolve."
+                title="Work & Learning"
+                body="What I’m working on, skills I’m developing, and lessons learned from real engineering work."
               />
               <MiniCard
-                title="Professional Development"
-                body="Skills I’m building at work—communication, technical judgment, and collaboration."
+                title="Life in the Host Country"
+                body="Everyday experiences, cultural differences, and moments that shape how I see things."
               />
               <MiniCard
-                title="Cross-Cultural Competency"
-                body="How I navigate teamwork, feedback styles, and communication in an international setting."
+                title="Reflections & Curiosities"
+                body="Challenges, observations, and ideas that stick with me, both technical and personal."
               />
             </div>
 
             <div className="mt-6 rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-200">
               <p className="text-sm text-slate-700">
-                <span className="font-semibold">Optional add:</span> Include a
-                second image carousel below (workplace, host city, weekend trip,
-                language meetup).
+                This portfolio isn’t meant to be polished or exhaustive. It’s a
+                place to capture progress, mistakes, and growth as they happen.
               </p>
+            </div>
+          </div>
+        </section>
+        <section className="mt-8">
+          <div className="rounded-3xl bg-slate-50 ring-1 ring-slate-200 p-8">
+            <h2 className="text-2xl font-bold tracking-tight">
+              Continue Exploring
+            </h2>
+
+            <p className="mt-3 text-slate-700 leading-relaxed">
+              The blog is where I share more detailed notes and reflections on
+              my work, experiences, and things I find interesting while living
+              and working abroad. Entries are informal and honest, focused on
+              learning as it happens.
+            </p>
+
+            <div className="mt-6">
+              <a
+                href="/blog"
+                className="inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-3 text-sm font-medium text-white hover:bg-slate-800 transition"
+              >
+                Visit the Blog
+              </a>
             </div>
           </div>
         </section>

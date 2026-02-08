@@ -12,45 +12,32 @@ type BlogEntry = {
   topicSlug: string;
   title: string;
   dateISO: string;
-  body: string[];
   images?: BlogEntryImage[]; // 0..N
 };
 
 const BLOG_ENTRIES: BlogEntry[] = [
   {
-    id: "iwe-001",
+    id: "blog-01",
     topicSlug: "international-work-experience",
     title: "Landing in a New Country (and Not Knowing Anything)",
     dateISO: "2026-01-10",
     images: [
       {
-        src: "https://images.unsplash.com/photo-1520975958225-5f5f6d6a3f8b?auto=format&fit=crop&w=1600&q=80",
-        alt: "Train station / travel vibe",
-      },
-      {
         src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80",
         alt: "People collaborating",
       },
     ],
-    body: [
-      "I expected the technical work to be the hard part. Turns out the hard part was everything around it: paperwork, transit, grocery runs, and learning how people communicate at work.",
-      "The biggest lesson: keep your process simple. Write down what you learn daily, build checklists, and don’t assume you’ll remember details when you’re tired.",
-    ],
   },
   {
-    id: "book-001",
-    topicSlug: "somefunny-book-line",
-    title: "A Quote That Had No Right Being That Accurate",
+    id: "book-01",
+    topicSlug: "book-reviews",
+    title: "Introduction to my Reading.",
     dateISO: "2026-01-15",
     images: [
       {
-        src: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1600&q=80",
+        src: "https://www.popsci.com/wp-content/uploads/2024/07/buy_physical_books.jpg?quality=85",
         alt: "Open book on a table",
       },
-    ],
-    body: [
-      "I was reading, minding my business, and a line jumped out that basically called me out personally.",
-      "My takeaway: when something feels “too true,” write it down and build an action from it. Reflection without action is just entertainment.",
     ],
   },
 ];
@@ -103,9 +90,12 @@ function EntryImagesRow({ images }: { images: BlogEntryImage[] }) {
 
 function EntryCard({ entry }: { entry: BlogEntry }) {
   const images = entry.images ?? [];
-
+  const navigate = useNavigate();
   return (
-    <article className="rounded-2xl border border-black/5 bg-white shadow-sm overflow-hidden">
+    <article
+      className="rounded-2xl border border-black/5 bg-white shadow-sm overflow-hidden"
+      onClick={() => navigate(entry.id)}
+    >
       <div className="p-6">
         {/* HEADER ROW (desktop): title/date left, images right.
             On mobile: images go to bottom (separate block below). */}
@@ -125,18 +115,6 @@ function EntryCard({ entry }: { entry: BlogEntry }) {
               <EntryImagesRow images={images} />
             </div>
           )}
-        </div>
-
-        {/* BODY */}
-        <div className="mt-4 flex flex-col gap-3">
-          {entry.body.map((p, idx) => (
-            <p
-              key={`${entry.id}-p-${idx}`}
-              className="text-slate-700 leading-relaxed"
-            >
-              {p}
-            </p>
-          ))}
         </div>
 
         {/* Mobile images at bottom */}
@@ -210,7 +188,7 @@ export default function BlogTopic() {
               onClick={() => navigate("/")}
               className="text-sm underline underline-offset-4 hover:opacity-80"
             >
-              Home →
+              Home
             </button>
           </div>
 
