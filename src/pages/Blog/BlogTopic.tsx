@@ -19,7 +19,7 @@ const BLOG_ENTRIES: BlogEntry[] = [
   {
     id: "blog-01",
     topicSlug: "international-work-experience",
-    title: "Landing in a New Country (and Not Knowing Anything)",
+    title: "Transition to Host Country, Adjustment & Culture Shock",
     dateISO: "2026-01-10",
     images: [
       {

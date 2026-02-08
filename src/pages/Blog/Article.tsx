@@ -1,55 +1,6 @@
 import { Link, useNavigate, useParams } from "react-router";
 import { BLOG_TOPICS } from "@/pages/Blog/topics";
-
-type BlogEntryImage = {
-  src: string;
-  alt: string;
-  caption?: string;
-};
-
-type BlogEntry = {
-  id: string;
-  topicSlug: string;
-  title: string;
-  dateISO: string;
-  images?: BlogEntryImage[];
-  // Add article body (you can make this markdown later)
-  content?: string;
-};
-
-// IMPORTANT: In your real app, import BLOG_ENTRIES from a shared file
-// so BlogTopic and BlogArticle reference the same source of truth.
-const BLOG_ENTRIES: BlogEntry[] = [
-  {
-    id: "blog-01",
-    topicSlug: "international-work-experience",
-    title: "Landing in a New Country (and Not Knowing Anything)",
-    dateISO: "2026-01-10",
-    images: [
-      {
-        src: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80",
-        alt: "People collaborating",
-        caption: "First week: equal parts excitement and confusion.",
-      },
-    ],
-    content:
-      "This is a placeholder article body.\n\nWrite your story here. You can keep it plain text for now, or switch to markdown later.",
-  },
-  {
-    id: "book-01",
-    topicSlug: "book-reviews",
-    title: "Introduction to my Reading.",
-    dateISO: "2026-01-15",
-    images: [
-      {
-        src: "https://www.popsci.com/wp-content/uploads/2024/07/buy_physical_books.jpg?quality=85",
-        alt: "Open book on a table",
-      },
-    ],
-    content:
-      "This is a placeholder for your reading intro post.\n\nTalk about why you're reading, what you track, and what kinds of books you’ll review.",
-  },
-];
+import { BLOG_ENTRIES, BlogEntryImage } from "./article-entries";
 
 function formatDate(dateISO: string) {
   const [y, m, d] = dateISO.split("-").map(Number);
@@ -82,7 +33,7 @@ function ArticleImages({ images }: { images: BlogEntryImage[] }) {
         <img
           src={hero.src}
           alt={hero.alt}
-          className="w-full h-[220px] sm:h-[320px] object-cover"
+          className="w-full h-[320px] sm:h-[520px] object-cover"
           loading="lazy"
         />
         {hero.caption && (
@@ -103,7 +54,7 @@ function ArticleImages({ images }: { images: BlogEntryImage[] }) {
               <img
                 src={img.src}
                 alt={img.alt}
-                className="w-full h-[200px] object-cover"
+                className="w-full h-[300px] object-cover"
                 loading="lazy"
               />
               {img.caption && (
@@ -119,30 +70,21 @@ function ArticleImages({ images }: { images: BlogEntryImage[] }) {
   );
 }
 
-function ArticleBody({ content }: { content?: string }) {
-  // Keep it simple: render paragraphs from newline breaks.
-  // Later you can swap this for a markdown renderer (MDX, react-markdown, etc.)
-  const safe = (content ?? "").trim();
-
-  if (!safe) {
+function ArticleBody({ content }: { content?: string[] }) {
+  if (!content || content.length === 0) {
     return (
       <div className="mt-8 rounded-2xl border border-black/5 bg-white p-6">
         <div className="text-lg font-semibold">Draft in progress</div>
-        <p className="mt-2 text-slate-600">
-          Add a <code className="px-1 py-0.5 bg-black/5 rounded">content</code>{" "}
-          field to this entry.
-        </p>
+        <p className="mt-2 text-slate-600">Add content to this article.</p>
       </div>
     );
   }
 
-  const paragraphs = safe.split(/\n{2,}/g);
-
   return (
-    <div className="mt-8 prose prose-slate max-w-none">
-      {paragraphs.map((p, idx) => (
-        <p key={idx} className="leading-relaxed">
-          {p}
+    <div className="mt-8">
+      {content.map((paragraph, idx) => (
+        <p key={idx} className="mb-6 last:mb-0 text-slate-700 leading-relaxed">
+          {paragraph}
         </p>
       ))}
     </div>
