@@ -65,6 +65,37 @@ export const BLOG_ENTRIES: BlogEntry[] = [
     ],
   },
   {
+    id: "blog-02",
+    topicSlug: "international-work-experience",
+    title: "Local Culture",
+    dateISO: "2026-03-1",
+    images: [
+      {
+        src: "https://i.redd.it/2026-carnival-floats-in-d%C3%BCsseldorf-germany-v0-xivil5xcwujg1.jpg?width=1280&format=pjpg&auto=webp&s=0a80cab6408c5380e97f03eeae46c899a30968a6",
+        alt: "carnival float",
+      },
+      {
+        src: "https://europa.tips/wordpress/wp-content/uploads/binche_carnival-768x432.webp",
+        alt: "people in carnival costume",
+      },
+      {
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXn7Vi0p8Ji7tJRu-FLV-0FudpYUZMQ4gQYg&s",
+        alt: "carnival float with putin",
+      },
+    ],
+    content: [
+      "Culture is something you really notice through day-to-day life more than anything else. Even in a short time abroad, things like how people interact, what they eat, and what they value socially start to stand out. Being here has made it clear that culture isn’t just traditions or holidays, but how people live and treat each other on a regular basis.",
+
+      "One of the biggest cultural experiences so far has been Karneval. It’s a long-standing tradition in this region that dates back centuries and is deeply rooted in local history. Karneval is a day where people are allowed to poke fun at authority and the ruling class. During Karneval, normal routines slow down and the focus shifts toward public celebration and satire. Seeing how seriously people take it makes it clear how important shared traditions and collective expression are in this culture.",
+
+      "Food has also been a big part of experiencing the culture. I've had traditional dishes like schnitzel and Haxe, and overall the food has been consistently really good. There are also a lot of Döner places everywhere, and they're popular quick, affordable, and solid every time. ",
+
+      "Language and everyday social behavior have also shaped my cultural experience. While German is the primary language spoken, people have been very friendly and patient, even when there are language barriers. One moment that stood out to me was when I purchased a bike and was allowed to take it before paying, trusting that I would return later to complete the payment. That level of trust and kindness left a strong impression on me.",
+
+      "Overall, while Karneval has been the most visible cultural highlight, it has been the smaller everyday experiences—shared meals, trust between people, and friendly interactions—that have helped me understand the local culture the most. These moments have made the culture feel welcoming, community-oriented, and rooted in long-standing traditions.",
+    ],
+  },
+  {
     id: "book-01",
     topicSlug: "book-reviews",
     title: "Introduction to my Reading.",
@@ -93,5 +124,44 @@ export const BLOG_ENTRIES: BlogEntry[] = [
 
       "Enjoy.",
     ],
+  },
+  {
+    id: "book-02",
+    topicSlug: "book-reviews",
+    title:
+      "The Book on Managing Rental Properties: Introduction & Key Takeaways",
+    dateISO: "2026-02-28",
+    images: [
+      {
+        src: "https://th.bing.com/th/id/OIP.dCze_eyCU5sgxyCGXbvvpgHaEK?w=308&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        alt: "Rental property management book cover",
+      },
+    ],
+    content: [
+      "One of the most important lessons from the book is strict compliance with fair housing laws. These laws are broad, unforgiving, and violations—intentional or not—can result in serious legal consequences. Landlords must be extremely careful with their language in advertisements, applications, emails, texts, and in-person conversations. Even subtle implications or preferences can be interpreted as discrimination. While certain situations such as owner-occupied house hacking may qualify for limited exemptions, relying on exemptions without legal clarity is risky. The safest approach is to always use neutral, standardized language and apply the same rules to every applicant. Fair housing compliance is not a formality, it must shape how you operate at every level.",
+
+      "The book strongly emphasizes the importance of predefined tenant qualification standards. By setting objective criteria, such as a minimum credit score (e.g., 650+), income requirements (e.g., income at least three times the monthly rent), and clean eviction history, landlords remove emotion from tenant selection. These standards protect the business from risky tenants while also ensuring consistent, defensible decisions. Having clear rules makes it easier to deny unqualified applicants without guilt or second-guessing, and it reinforces professionalism while reducing exposure to fair housing violations.",
+
+      "Being strict but fair is presented as a cornerstone of successful landlording. Rules must be clearly defined, communicated upfront, and enforced consistently regardless of circumstance. Inconsistent enforcement, such as making exceptions for certain tenants, can lead to resentment, operational chaos, and even legal exposure. The book stresses that consistency is not about being harsh, but about being predictable and principled. When tenants know that rules are applied uniformly, disputes decrease and expectations stay aligned. Firm boundaries ultimately reduce stress and long-term headaches.",
+
+      "Organization and documentation are portrayed as non-negotiable systems for landlords. The book advises maintaining detailed files for every tenant and every property. Tenant files should include leases, applications, conversation logs, maintenance requests, notices, and any disputes. Property files should track maintenance histories, repairs, warranties, contractor work, and costs. Staying organized ensures you are prepared for legal disputes, audits, tenant disagreements, or unexpected situations. Documentation is not just administrative, it is your primary form of protection.",
+
+      "The concept of training tenants through positive and negative reinforcement is a subtle but powerful insight from the book. Tenants do not inherently know how to be ideal renters, and it is the landlord's role to set expectations and guide behavior. Positive reinforcement, such as acknowledging timely rent payments or cooperative behavior, encourages compliance, while negative reinforcement—such as enforcing late fees or lease violations, discourages bad habits. The key is to maintain authority without becoming overly friendly. Professional distance preserves respect and ensures the landlord-tenant relationship remains healthy and functional.",
+
+      "Another practical strategy discussed in the book is the use of a 'cash for keys' agreement as an alternative to eviction. When a tenant becomes persistently problematic and it is clear that the situation will likely escalate into a formal eviction, offering a one-time payment in exchange for a voluntary move-out can be a far more efficient solution. While paying a tenant to leave may feel counterintuitive, the reality is that evictions are often expensive, time-consuming, emotionally draining, and can take months to resolve—especially in tenant-friendly jurisdictions. A modest payment, such as $500, can incentivize cooperation, allow the unit to be recovered quickly, and avoid legal fees, court delays, and prolonged vacancy. When handled professionally and documented in writing, cash for keys can be a clean, mutually beneficial exit strategy that protects both time and capital.",
+
+      "The book highlights critical protections when working with contractors, particularly the importance of lien releases. After a contractor completes work and is paid, landlords should always obtain a signed lien waiver confirming the contractor has received full payment and relinquishes the right to file a lien against the property. Without this, contractors may legally place a mechanic's lien on the property, potentially preventing the owner from selling or refinancing until disputes are resolved. The authors also stress thorough vetting of contractors, avoiding full upfront payments, and paying in installments tied to project milestones. Paying for materials directly and rewarding reliable contractors long-term helps mitigate risk while building strong vendor relationships.",
+    ],
+  },
+  {
+    id: "book-03",
+    topicSlug: "book-reviews",
+    title: "Essential Scrum: Introduction & Key Takeaways",
+    dateISO: "2026-03-1",
+    images: [],
+    content: ["currently reading, will post notes and takeaways when done!"],
+    // content: ["description of scrum what it is what its based on 'agile principles' eg overview",
+    //    "LRM last respospible moment scrum keep options open dont make large decisions until the cost of the decision out weighs the cost not",
+    //    " low cost exploration of options via iterative trial and error"],
   },
 ];

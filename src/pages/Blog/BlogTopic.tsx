@@ -29,6 +29,18 @@ const BLOG_ENTRIES: BlogEntry[] = [
     ],
   },
   {
+    id: "blog-02",
+    topicSlug: "international-work-experience",
+    title: "Local Culture",
+    dateISO: "2026-03-1",
+    images: [
+      {
+        src: "https://europa.tips/wordpress/wp-content/uploads/binche_carnival-768x432.webp",
+        alt: "people in carnival costume",
+      },
+    ],
+  },
+  {
     id: "book-01",
     topicSlug: "book-reviews",
     title: "Introduction to my Reading.",
@@ -37,6 +49,30 @@ const BLOG_ENTRIES: BlogEntry[] = [
       {
         src: "https://www.popsci.com/wp-content/uploads/2024/07/buy_physical_books.jpg?quality=85",
         alt: "Open book on a table",
+      },
+    ],
+  },
+  {
+    id: "book-02",
+    topicSlug: "book-reviews",
+    title: "Managing Rental Properties in Germany.",
+    dateISO: "2026-02-28",
+    images: [
+      {
+        src: "https://th.bing.com/th/id/OIP.dCze_eyCU5sgxyCGXbvvpgHaEK?w=308&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
+        alt: "Rental property management",
+      },
+    ],
+  },
+  {
+    id: "book-03",
+    topicSlug: "book-reviews",
+    title: "Essential Scrum: Introduction & Key Takeaways (Read in progress)",
+    dateISO: "2026-03-1",
+    images: [
+      {
+        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNWJJ_nnWfPB-8W1wWBYxVh7sOdCH_-ah0Lg&s",
+        alt: "Essential Scrum book cover",
       },
     ],
   },
