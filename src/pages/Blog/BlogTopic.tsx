@@ -41,6 +41,18 @@ const BLOG_ENTRIES: BlogEntry[] = [
     ],
   },
   {
+    id: "blog-03",
+    topicSlug: "international-work-experience",
+    title: "Forschungszentrum Jülich & Work Culture",
+    dateISO: "2026-04-5",
+    images: [
+      {
+        src: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhycologne.de%2Fwp-content%2Fuploads%2F2021%2F10%2Fforschungszentrumjuelich.jpg&f=1&nofb=1&ipt=c545b75b9fad89ddada0e50095c2a8d7c37be734b7b65a8b412c89f9c154afd0",
+        alt: "forschungszentrum logo",
+      },
+    ],
+  },
+  {
     id: "book-01",
     topicSlug: "book-reviews",
     title: "Introduction to my Reading.",
