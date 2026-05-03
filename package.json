@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "sync:package-lock": "npm install --package-lock-only --ignore-scripts",
-    "preview": "vike preview"
+    "preview": "vike preview",
+    "deploy": "vike build && wrangler pages deploy"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.5",
