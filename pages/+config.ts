@@ -3,6 +3,7 @@ import vikeReact from "vike-react/config";
 
 export default {
   ssr: false,
+  prerender: true,
   extends: [vikeReact],
   title: "Christopher Farah",
   description:
