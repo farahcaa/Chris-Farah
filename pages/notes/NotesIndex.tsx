@@ -20,6 +20,7 @@ function getEntryHref(topicSlug: string, entryId: string) {
     "book-01": "/notes/reading-introduction",
     "book-02": "/notes/managing-rental-properties",
     "book-03": "/notes/essential-scrum",
+    "book-04": "/notes/the-mom-test",
     "lifting-01": "/notes/weight-lifting",
   };
 
