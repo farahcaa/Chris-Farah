@@ -4,7 +4,7 @@ import NoteArticle from "../_components/NoteArticle";
 const entry = NOTE_ENTRIES.find((item) => item.id === "book-03");
 const sections = [
   {
-    title: "Current Status",
+    title: "Key Takeaways",
     paragraphs: entry?.content ?? [],
   },
 ];

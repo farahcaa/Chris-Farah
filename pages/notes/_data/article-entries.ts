@@ -206,7 +206,7 @@ contribute to the tooling rather than the nuclear physics directly.`,
   {
     id: "book-03",
     topicSlug: "book-reviews",
-    title: "Essential Scrum: Key Takeaways",
+    title: "Essential Scrum",
     dateISO: "2026-03-1",
     images: [],
     content: [
@@ -252,10 +252,24 @@ contribute to the tooling rather than the nuclear physics directly.`,
   {
     id: "book-04",
     topicSlug: "book-reviews",
-    title: "The Mom Test: Key Takeaways",
-    dateISO: "2026-10-04",
+    title: "The Mom Test",
+    dateISO: "2026-05-24",
     content: [
-      "Coming soon. The Mom Test is about getting honest feedback on an idea by asking better questions. Instead of pitching the idea directly and inviting people to be polite, the book focuses on learning from real behavior, past problems, and concrete experiences so the feedback is useful instead of just encouraging.",
+      "The Mom Test is a book about how to get honest feedback on your business ideas. The main premise is that when you ask people if they like your idea, they will often say yes just to be nice, especially if they are friends or family. This can lead to false validation and wasted time building something nobody actually wants. The book teaches how to ask better questions that focus on learning from real behavior, past problems, and concrete experiences instead of pitching the idea directly. By asking about specific situations and challenges people have faced, you can get more useful feedback that helps you understand the real needs and pain points of your potential customers.",
+
+      "The mom test. 1. Talk about their life instead of your idea. 2. Ask about specifics in the past instead of generics or opinions about the future. 3. Talk less and listen more.",
+
+      "Interesting rule of thumb while its rare for someone to tell you precisely what they’ll pay you theyll often show you what its worth to them. e.g. someone tells you they would spend x on said product but currently spends y on a workaround. If y is close to x, that can be a good sign. If y is much lower than x, that can indicate the problem isn’t painful enough to justify the price.",
+
+      "3 types of bad data: compliments, fluff, and ideas. rule of thumb compliments are the fool’s gold of customer learning: shiny, distracting, and worthless. Compliments are peoples way off saying I want to get out of this conversation as quickly as possible and can lead a founder to false validation that can be extremely dangerous. Fluff is the vague, non-committal stuff people say like I would, I usually, I never, etc. Fluff is a sign that someone is in hypothetical mode, which is the opposite of the real world and not helpful. Ideas are when people try to help you by giving you solutions instead of telling you about their problems. Ideas can be useful but digging to the root motivation of the idea uncovers more useful information. For example, if someone says they would use a product that does x, ask them why they would want that. The answer to why is often more valuable than the specific solution they suggest.",
+
+      `look before you zoom. When extracting insight from a conversation, do not immediately dive into detailed questions about a problem until you know the person actually experiences it. Start broad, then narrow only once the problem is real for them. For example, imagine you are testing an idea for a blogging app that makes it easier to write posts consistently. You ask a potential user, "How do you currently blog?" and they respond, "I don’t blog." At that point, it may seem natural to ask, "What is your biggest problem with starting a blog?" But that still assumes they want to start blogging in the first place. Instead, you should step back and ask, "Have you ever wanted to blog?" or "What has stopped you from blogging before?" Those questions help you figure out whether blogging is something they actually care about, something they tried and abandoned, or something they have no real interest in. If you skip that step, the person may invent problems just to be helpful. They might say, "I guess I don’t have enough time," which sounds like validation for your idea, even though blogging is not actually a meaningful problem in their life. The key is to first confirm that the behavior, desire, or attempted behavior exists. Only then should you zoom into the details.`,
+
+      "Staying casual in your customer feedback is important but sometimes a proper meeting is unavoidable. When this is the case using the structure vision / framing / weakness / peadestal / ask can help guide warm introductions into conversations. Start by sharing your vision for the product or idea, then frame the conversation by explaining that you are looking for honest feedback to help you learn and improve. Next, share a weakness or area of uncertainty in your idea to encourage honesty and vulnerability. Give them praise by acknowledging their expertise or experience related to the problem you are trying to solve. Finally, ask for a time to meet. this structure helps set the tone for a productive conversation and increases the likelihood of getting useful feedback.",
+
+      "Don’t approach meetings as if you’re trying to find customers. That can create a needy dynamic. Instead, approach people as advisors who can help you learn. This mindset keeps the conversation focused, lowers the pressure, and makes it easier to start because you’re asking for insight rather than trying to sell. The author says something I really like on page 91: `Willpower is a finite resource. the way to overcome difficult situations inst to power through but rather to change your circumstances to require less will power.`",
+
+      "If your product is being sold to a generic customer set it is easy to get confused as to what to build. one customer will tell you this feature another that feature until you dont know which way is up. When this happens we know our customer segments are too broad. To prevent this we start narrow our customer segment as much as possible by looking broad then slicing off better and better customer segments until we have an extremly niche group down to as fine of detail as possible. Right now I am in finishing up a project called Lexgrip which is a ai powered flash card app for language learners. In a week when its time to market and get users I will narrow down my segment from students who want to learn a language to Adult expats living abroad with intermediate skills in the local language, who can handle basic conversations but have gaps they want to close in real life. This is a much more specific segment that will help me focus on the right features and marketing channels instead of trying to be everything to everyone. The more specific the segment the easier it is to find early users and get feedback that helps you build something people actually want.",
     ],
   },
   {
@@ -264,7 +278,16 @@ contribute to the tooling rather than the nuclear physics directly.`,
     title: "Weight Lifting Notes",
     dateISO: "2026-05-03",
     content: [
-      "Coming soon. This will be where I keep notes on training, lifting progress, programming ideas, and what I’m learning in the gym.",
+      "Coming soon. This will be where I keep notes on training, lifting progress, and what I’m learning in the gym.",
+    ],
+  },
+  {
+    id: "book-05",
+    topicSlug: "book-reviews",
+    title: "Lean B2B: Build Products Businesses Want",
+    dateISO: "2026-05-24",
+    content: [
+      "Coming soon.",
     ],
   },
 ];
