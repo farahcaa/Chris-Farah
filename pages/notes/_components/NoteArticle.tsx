@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import type { NoteEntry, NoteEntryImage } from "../_data/article-entries";
 
@@ -28,6 +29,34 @@ function formatDate(dateISO: string) {
   }).format(date);
 }
 
+function ArticleImage({ image }: { image: NoteEntryImage }) {
+  const [loaded, setLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // Cached/already-decoded images may finish before hydration attaches onLoad.
+  useEffect(() => {
+    if (imgRef.current?.complete) setLoaded(true);
+  }, []);
+
+  return (
+    <div className="relative aspect-[4/3] w-full overflow-hidden">
+      {!loaded && (
+        <div className="image-skeleton absolute inset-0" aria-hidden="true" />
+      )}
+      <img
+        ref={imgRef}
+        src={image.src}
+        alt={image.alt}
+        onLoad={() => setLoaded(true)}
+        loading="lazy"
+        className={`h-full w-full object-cover transition-opacity duration-700 ${
+          loaded ? "opacity-100" : "opacity-0"
+        }`}
+      />
+    </div>
+  );
+}
+
 function ImageGrid({ images }: { images: NoteEntryImage[] }) {
   if (images.length === 0) return null;
 
@@ -38,12 +67,7 @@ function ImageGrid({ images }: { images: NoteEntryImage[] }) {
           key={image.src}
           className={index === 0 ? "sm:col-span-2" : undefined}
         >
-          <img
-            src={image.src}
-            alt={image.alt}
-            className="aspect-[4/3] w-full object-cover"
-            loading="lazy"
-          />
+          <ArticleImage image={image} />
           {image.caption && (
             <figcaption className="mt-3 text-sm leading-6 text-[#9f988c]">
               {image.caption}
