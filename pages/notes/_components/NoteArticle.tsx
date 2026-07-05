@@ -1,8 +1,9 @@
+import type { ReactNode } from "react";
 import type { NoteEntry, NoteEntryImage } from "../_data/article-entries";
 
 type NoteSection = {
   title: string;
-  paragraphs: string[];
+  paragraphs: ReactNode[];
 };
 
 type NoteArticleProps = {
@@ -105,8 +106,8 @@ export default function NoteArticle({
                 {section.title}
               </h2>
               <div className="mt-5 space-y-7 text-lg leading-8 text-[#d8d1c4]">
-                {section.paragraphs.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
+                {section.paragraphs.map((paragraph, index) => (
+                  <p key={index}>{paragraph}</p>
                 ))}
               </div>
             </section>

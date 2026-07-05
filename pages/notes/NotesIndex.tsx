@@ -17,6 +17,7 @@ function getEntryHref(topicSlug: string, entryId: string) {
     "blog-01": "/notes/transition-to-host-country",
     "blog-02": "/notes/local-culture",
     "blog-03": "/notes/juelich-work-culture",
+    "blog-04": "/notes/local-exploration",
     "book-01": "/notes/reading-introduction",
     "book-02": "/notes/managing-rental-properties",
     "book-03": "/notes/essential-scrum",

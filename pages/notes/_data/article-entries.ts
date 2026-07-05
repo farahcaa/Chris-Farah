@@ -146,6 +146,63 @@ contribute to the tooling rather than the nuclear physics directly.`,
     ],
   },
   {
+    id: "blog-04",
+    topicSlug: "international-work-experience",
+    title: "Local Exploration & Favorite Places",
+    dateISO: "2026-07-05",
+    images: [
+      {
+        src: "/blog-local-1.jpeg",
+        alt: "bike ride to work through the countryside",
+      },
+      {
+        src: "/blog-local-2.jpeg",
+        alt: "scenery on a long run outside of town",
+      },
+      {
+        src: "/blog-local-3.jpeg",
+        alt: "path winding out of the small town",
+      },
+      {
+        src: "/blog-local-4.jpeg",
+        alt: "view along a bike ride",
+      },
+      {
+        src: "/blog-local-5.jpeg",
+        alt: "streets of Köln",
+      },
+      {
+        src: "/blog-local-6.jpeg",
+        alt: "Düsseldorf",
+      },
+      {
+        src: "/blog-local-7.JPG",
+        alt: "burgers and Kölsch at Cafe Extrablatt",
+      },
+      {
+        src: "/blog-local-8.JPG",
+        alt: "visiting family",
+      },
+    ],
+    content: [
+      "On my weekends I spend a lot of time working on my side project LexGrip, but here and there I enjoy exploring unique places with friends I have met here. I probably have not explored as much as I could have, but the times I have gone out have been really memorable. A lot of my favorite moments have come from simple things like trying local restaurants, exploring cities with friends, or finding nice scenery during long runs outside of town.  ",
+
+      "Biking and running have also been how I stay in shape while seeing more of the area. Some of my longer runs take me well outside of town, and that's where I've found some genuinely beautiful scenery mostly long winding hills of farm land. A couple of the pictures above are from those runs, and they don't really do it justice.",
+
+      "As for favorite spots, there's a burger place nearby called Cafe Extrablatt that I keep going back to. My friends and I head there for burgers and a Kölsch, it's become our regular spot.",
+
+      "I've also spent time in Köln and Düsseldorf, which are both beautiful in their own way. Köln has that old, historic feel with the cathedral, while Düsseldorf is a bit more modern. And I've been able to visit family while I'm out here, which has been a nice bonus.",
+
+      "My take on public transportation has in some instances made me miss my car and in others glad not to have it.",
+
+      "The main downside is that the small town I'm in doesn't have trains running late or early during the week, and weekends are little better. So anytime we want to explore somewhere farther out, we're stuck planning around the train schedule. Miss the last one back and your only real option is staying out all night until the morning trains start again. The trains though while be delayed will let you know when their going to be there",
+
+      "The buses are their own thing. The schedule says the bus comes at 8:02, but I've learned to leave the house around 8:08, because in reality it shows up anywhere from 8:10 to 8:35, usually closer to 8:35. However this is normally just my morning bus to work the other buses are within 5 minutes of their posted times I just take this one everyday and feel it a bit more.",
+
+      "Workaholic tendencies aside, getting out to explore has been one of the best parts of living here, even if half the adventure is just figuring out how to make it home in time.",
+    ],
+  },
+  {
     id: "book-01",
     topicSlug: "book-reviews",
     title: "Introduction to my Reading.",
@@ -278,7 +335,7 @@ contribute to the tooling rather than the nuclear physics directly.`,
     title: "Weight Lifting Notes",
     dateISO: "2026-05-03",
     content: [
-      "Coming soon. This will be where I keep notes on training, lifting progress, and what I’m learning in the gym.",
+      "Coming soon when I finally get abs.This will be where I give my guide/notes on my gym progress, what Ive done, what worked, and what didnt. ",
     ],
   },
   {
@@ -286,8 +343,28 @@ contribute to the tooling rather than the nuclear physics directly.`,
     topicSlug: "book-reviews",
     title: "Lean B2B: Build Products Businesses Want",
     dateISO: "2026-05-24",
+    content: ["Coming soon."],
+    /*
+    content: [ "The Deadly b2b sins ", "b2b vs b2c b2b roi client relationships decision making process" "lean b2b first we start with the people/market. this makes it less likely we will invent a problem and start with false assumptions. ", "the main reasons companies by is increase revenue decrease costs or increase customer satisfaction"
+    "money map - a diagram showing what costs a business currently expending this shows where there may be a problem to solve/ allows you to make sure the problem you choose has the budget to spend." "book mentions finding early adopters via " klout" since early adopters are essential to the continued success of your business its important you find ones that have influence and connections to others in the space so they can brag about your product."
+    "leverage you and your teams networks if you are an expert on the subject great you already should have credibility if not lean on your team or even bring on someone who does have the expertise this will go a long way". " this authors development process is discovery, drilldown exploration and confirmation so with customers first fine the problem then drill down into how it effects the company currently explore solutions then confirm that the solution is valuable enough to trade money for"
+    "author mentions just like in the mom test you dont learn anything about the customer when trying to sell the product that triggers the customers feedback/support mode where they dont fully consider themselves but rather think about your product and what could be added. always keep your customers focus on their real life behavior"
+    " interview code of conduct I find interesting: have a plan: author mentions its important to be able to compare interviews so having a script/ plan is important, follow emotion: whenever you hear emotion in the persons voice hone in there, encourage complaints: people are more specific about complaints than praise. also be sure to limit response bias: when interviewe conciously or unconciously responds with what the interviewr wants to here and interviewer bias: when the interviewer frames questions that try to ellicit a certain answer. a rough script for an interview would be greetings: introduce yourself again, qualification: you must again qualify them and ensure they are a good fit, ask open-ended questions: a lot of gems come from side tangents so its important to let them wander with their answers, closing: the goal is to get a follow up first then second expand your network and ask the prospect for 5 other people who most likely share this problem."
+      " To get the best answers out of an interview its a good idea to ask questions in levels eg the book gives the example image you are looking into social media recruitment. you might start out asking tell me how you deal with recruitment. then go a level deeper to the who, what, where, when and with questions then finally a what do you mean by that or can you explain a little further. "ı
+    ]
+    */
+  },
+  {
+    id: "mit-intro-to-solid-state-chemistry",
+    topicSlug: "intro-to-solid-state-chemistry",
+    title: "Intro to solid state chemistry Notes",
+    dateISO: "2026-06-23",
     content: [
-      "Coming soon.",
+      "Coming soon. I have been very curious about material engineering & predicting the properties of engineered compounds so this is where I will be sharing interesting things from the online free ªªºyoutube course",
     ],
+    /*
+    content: [
+    "the first few lecture videos have been itching a scratch I didnt know I needed itched. the professor begins the first lectures talking about how people like... uncovered different elements created the peridotic table and creted the model of the atom that we understand today.
+     */
   },
 ];
