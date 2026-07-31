@@ -28,21 +28,26 @@ export default function About() {
           </p>
 
           <p>
-            My technical interests sit around{" "}
+            First and foremost I’m an{" "}
+            <strong className="font-bold text-[#f4f0e8]">engineer</strong>, but
+            my interests run wider than the code. I admire entrepreneurs and the
+            people who can hold a whole business in their head, so I like being
+            close to every layer of building something: LLC formation and the
+            groundwork that comes with it, frontend UX/UI, backend API and data
+            layer design, the infrastructure underneath, and the operations and
+            management that keep it all running. Anything involving{" "}
             <strong className="font-bold text-[#f4f0e8]">
-              backend development
-            </strong>
-            , API design, system design, DevOps, CI/CD, debugging, and building
-            products that can survive real constraints. I like work where the
-            details matter and the system has to become clearer over time.
+              product development
+            </strong>{" "}
+            is where I like to work.
           </p>
 
           <p>
-            Academically, I’m building full-stack engineering skills across
-            frontend, backend, databases, and infrastructure. After I graduate
-            next year, I plan to pursue an MBA to deepen how I think about
-            product strategy, business fundamentals, and decision-making at
-            scale.
+            That’s also why, after I graduate next year, I plan to pursue an{" "}
+            <strong className="font-bold text-[#f4f0e8]">MBA</strong>. The
+            engineering side I can keep sharpening on my own; the part I want
+            formal training in is product strategy, business fundamentals, and
+            decision-making at scale.
           </p>
 
           <p>
@@ -59,21 +64,15 @@ export default function About() {
 
           <div className="mt-6 space-y-5 text-lg leading-8 text-[#d8d1c4]">
             <p>
-              I’ve gained professional experience through co-ops and learned how
-              to contribute on real engineering teams, where communication and
-              reliability matter as much as the code itself.
+              I've interned at Honeywell Intelligrated on the MCBL (Machine Control Business Logic) team, working on development and documentation, and at Forschungszentrum Jülich, where I profiled and optimized CFD solvers for a 12% speedup. I also tracked down and fixed a set of memory leaks there, then built CI/CD regression and leak testing so they'd stay fixed.
             </p>
 
             <p>
-              I’ve designed and built a full-stack application end-to-end,
-              taking it from idea to working platform and improving it against
-              actual constraints.
+              I designed and built <a className="decoration-[#b8ff8a] decoration-2 underline underline-offset-4 cursor-pointer hover:text-[#b8ff8a] font-bold" href="https://lexgrip.com">Lexgrip</a> <span className="text-[#9f988c]">(actively developing)</span>, a vocabulary-focused language learning app with AI tutoring. It uses FSRS (Free Spaced Repetition Scheduler) to predict the moment you're about to forget a card, and a built-in tutor that generates and caches translation, multiple-choice, and other question types on the fly. Every mistake is saved, so you can see exactly where you're weak.
             </p>
 
             <p>
-              I’ve also worked on performance-critical scientific software,
-              profiling runtime behavior and making targeted optimizations based
-              on real measurements instead of guesses.
+              I'm building <a className="decoration-[#b8ff8a] decoration-2 underline underline-offset-4 cursor-pointer hover:text-[#b8ff8a] font-bold" href="https://campuscribs.org">Campus Cribs</a> <span className="text-[#9f988c]">(v1 live, v2 actively developing)</span>, one place for student housing instead of five. Sublets live in Facebook groups, roommate posts in group chats, and real listings on sites that don't understand semesters, so I put them in a single feed built for how students actually move. My first real passion project.
             </p>
           </div>
         </section>

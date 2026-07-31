@@ -1,4 +1,4 @@
-const SITE_URL = "https://chris-farah.pages.dev";
+const SITE_URL = "https://chris-farah.com";
 const SITE_NAME = "Christopher Farah";
 const DEFAULT_IMAGE = "/code-brackets.svg";
 

@@ -130,7 +130,7 @@ export const NOTE_ENTRIES: NoteEntry[] = [
       `I work at Forschungszentrum Jülich on the reactor safety side of their
 nuclear research program. The team develops containmentFoam, an open-source
 CFD solver built on OpenFOAM that simulates what happens inside a nuclear
-reactor containment building during a severe accident — things like hydrogen
+reactor containment building during a severe accident, things like hydrogen
 mixing, steam distribution, and aerosol transport. The goal is to help
 assess safety measures and prevent the kind of containment failures seen
 at Fukushima. My role is on the software and performance side, so I
@@ -138,11 +138,11 @@ contribute to the tooling rather than the nuclear physics directly.`,
 
       "My position is as a performance engineer, and my main responsibility has been developing scripts to test how systems perform under different conditions. At the start, I was focused more on performance testing, but more recently my work has shifted toward finding memory leaks in applications. A big part of what I’ve been doing is integrating those tests into GitLab CI/CD pipelines so that performance and memory checks run automatically. Day-to-day, that means writing scripts, analyzing logs, debugging issues, and trying to make systems more reliable and efficient.",
 
-      "In terms of workplace culture, it honestly feels pretty similar to what I’ve experienced in the United States, especially in engineering environments. People are focused on their work, communication is pretty direct, and expectations are clear. One small difference I noticed is that people here are more likely to eat lunch together, which might just be a me thing but at home I was used to people eating at their desks or going out separately. Here, it seems more common for teams to take a break and have lunch together, which creates a different kind of social dynamic. It’s a nice way to build camaraderie and take a break from work, and it’s something I’ve come to appreciate.",
+      "In terms of German work culture, it honestly feels pretty similar to what I’ve experienced in the United States, especially in engineering environments. People are focused on their work, communication is pretty direct, and expectations are clear. The one thing I noticed that was genuinely different is the coffee. Before work starts, and again after lunch, there’s a nice stretch of time where colleagues sit down over one or two coffees and just talk. Sometimes it’s weekend plans, sometimes it’s politics or whatever is in the news, and sometimes it’s someone working through the term in their nuclear physics equations that’s throwing off their timesteps. It isn’t treated as time taken away from work, it’s just part of the day.",
 
-      "Comparing Germany to the U.S., the actual work itself is almost identical, especially in software engineering. The tools, workflows, and expectations are all very similar. The main differences are more in lifestyle and structure. There seems to be a stronger emphasis on work-life balance in Germany, and the overall pace feels slightly more steady and less rushed. At the same time, collaboration and productivity are still very high.",
+      "Comparing Germany to the U.S., the actual work itself is almost identical, especially in software engineering. The tools, workflows, and expectations are all very similar. I heard a lot about work life balance growing up in the states, and the place I actually noticed it was vacation. Full-time employees get a full month off, and even as a student on co-op I got 18 days. Time off is treated as something you’re expected to take, not something you feel guilty about using. I will say I don’t know if that strikes me as unusual because of my workplace specifically, or just because I’m not full time in the states yet and don’t have much to compare it against.",
 
-      "Overall, this experience has shown me that while technical work is pretty universal, the way people interact around that work can still vary. The biggest differences haven’t been in the engineering itself, but in the smaller daily habits, like eating together or how people structure their day. Those are the things that make the experience feel different, even when the job itself feels familiar.",
+      "Overall, this experience has shown me that while technical work is pretty universal, the way people interact around that work can still vary. The biggest differences haven’t been in the engineering itself, but in the smaller daily habits, like the coffee breaks or how people structure their day. Those are the things that make the experience feel different, even when the job itself feels familiar.",
     ],
   },
   {
@@ -200,6 +200,15 @@ contribute to the tooling rather than the nuclear physics directly.`,
       "The buses are their own thing. The schedule says the bus comes at 8:02, but I've learned to leave the house around 8:08, because in reality it shows up anywhere from 8:10 to 8:35, usually closer to 8:35. However this is normally just my morning bus to work the other buses are within 5 minutes of their posted times I just take this one everyday and feel it a bit more.",
 
       "Workaholic tendencies aside, getting out to explore has been one of the best parts of living here, even if half the adventure is just figuring out how to make it home in time.",
+    ],
+  },
+  {
+    id: "blog-05",
+    topicSlug: "international-work-experience",
+    title: "Excursions and Travel",
+    dateISO: "2026-07-31",
+    content: [
+      "Coming soon. This is where I will write about the bigger trips, the weekend excursions, the countries I made it to, and the castles and historic places I said I wanted to see back in my very first post.",
     ],
   },
   {
@@ -335,7 +344,7 @@ contribute to the tooling rather than the nuclear physics directly.`,
     title: "Weight Lifting Notes",
     dateISO: "2026-05-03",
     content: [
-      "Coming soon when I finally get abs.This will be where I give my guide/notes on my gym progress, what Ive done, what worked, and what didnt. ",
+      "I’ve lost 30 pounds since moving to Germany, which I’m pretty happy about. Still, I’m not writing this one until I get the abs I’ve been dreaming up 😂. Once that happens, this is where I’ll put my guide and notes on gym progress: what I’ve done, what worked, and what didn’t.",
     ],
   },
   {
@@ -350,7 +359,8 @@ contribute to the tooling rather than the nuclear physics directly.`,
     "leverage you and your teams networks if you are an expert on the subject great you already should have credibility if not lean on your team or even bring on someone who does have the expertise this will go a long way". " this authors development process is discovery, drilldown exploration and confirmation so with customers first fine the problem then drill down into how it effects the company currently explore solutions then confirm that the solution is valuable enough to trade money for"
     "author mentions just like in the mom test you dont learn anything about the customer when trying to sell the product that triggers the customers feedback/support mode where they dont fully consider themselves but rather think about your product and what could be added. always keep your customers focus on their real life behavior"
     " interview code of conduct I find interesting: have a plan: author mentions its important to be able to compare interviews so having a script/ plan is important, follow emotion: whenever you hear emotion in the persons voice hone in there, encourage complaints: people are more specific about complaints than praise. also be sure to limit response bias: when interviewe conciously or unconciously responds with what the interviewr wants to here and interviewer bias: when the interviewer frames questions that try to ellicit a certain answer. a rough script for an interview would be greetings: introduce yourself again, qualification: you must again qualify them and ensure they are a good fit, ask open-ended questions: a lot of gems come from side tangents so its important to let them wander with their answers, closing: the goal is to get a follow up first then second expand your network and ask the prospect for 5 other people who most likely share this problem."
-      " To get the best answers out of an interview its a good idea to ask questions in levels eg the book gives the example image you are looking into social media recruitment. you might start out asking tell me how you deal with recruitment. then go a level deeper to the who, what, where, when and with questions then finally a what do you mean by that or can you explain a little further. "ı
+      " To get the best answers out of an interview its a good idea to ask questions in levels eg the book gives the example image you are looking into social media recruitment. you might start out asking tell me how you deal with recruitment. then go a level deeper to the who, what, where, when and with questions then finally a what do you mean by that or can you explain a little further. ",
+      "After concluding interviews with multiple prospects you should have a lot of data on whats causing the most pain, where, and how much their budget is, with this the next step is to figure out which problems to attack or prioritize. First way you could prioritize is by frequency, about all this is good for is evaluating market size it doesnt tell you how deep the problem is for prospects, also it is only a small sample size so true market trends could not be reflected making more data required. Intensity of the pain probably the second best signal, if the prospect repeatly and pasionatly mentions a single problem that is a good indicator of an intense problem. Having a high budget is the best signal, if clients dont have the budget to pay for a solution you wont get anywhere. You could have a strong pain point but if theres no real budget for a solution your dead in the water. impact, market education  
     ]
     */
   },
