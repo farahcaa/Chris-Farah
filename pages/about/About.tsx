@@ -64,7 +64,7 @@ export default function About() {
 
           <div className="mt-6 space-y-5 text-lg leading-8 text-[#d8d1c4]">
             <p>
-              I've interned at Honeywell Intelligrated on the MCBL (Machine Control Business Logic) team, working on development and documentation, and at Forschungszentrum Jülich, where I profiled and optimized CFD solvers for a 12% speedup. I also tracked down and fixed a set of memory leaks there, then built CI/CD regression and leak testing so they'd stay fixed.
+              I've interned at Honeywell Intelligrated on the MCBL (Machine Control Business Logic) team, working on development and documentation, and at Forschungszentrum Jülich, where I profiled CFD solvers and found an allocator change that cut about 5% off runtime without touching the solver itself. I also tracked down and fixed a set of memory leaks there, then built CI/CD regression and leak testing so they'd stay fixed.
             </p>
 
             <p>
