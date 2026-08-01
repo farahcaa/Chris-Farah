@@ -47,7 +47,7 @@ const Page = () => {
             </a>
             , or grab my{" "}
             <a
-              href="/resume.pdf"
+              href="/Farah_Christopher_Resume_2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold text-[#f4f0e8] decoration-[#ff9bb3] decoration-2 underline underline-offset-4 transition-colors hover:text-[#ff9bb3]"

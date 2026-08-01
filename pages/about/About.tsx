@@ -112,7 +112,7 @@ export default function About() {
             </a>
             , or{" "}
             <a
-              href="/resume.pdf"
+              href="/Farah_Christopher_Resume_2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={`${linkClass} decoration-[#ff9bb3] hover:text-[#ff9bb3]`}
