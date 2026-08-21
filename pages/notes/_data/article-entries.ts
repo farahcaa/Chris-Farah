@@ -206,9 +206,75 @@ contribute to the tooling rather than the nuclear physics directly.`,
     id: "blog-05",
     topicSlug: "international-work-experience",
     title: "Excursions and Travel",
-    dateISO: "2026-07-31",
+    dateISO: "2026-08-07",
+    images: [
+      {
+        src: "/blog-excursions-2.jpg",
+        alt: "outside the Colosseum in Rome",
+      },
+      {
+        src: "/blog-excursions-7.jpg",
+        alt: "cookie croissants from Lourens next to an Amsterdam canal",
+      },
+      {
+        src: "/blog-excursions-3.jpg",
+        alt: "statue of Augustus in the Vatican Museums",
+      },
+      {
+        src: "/blog-excursions-4.jpg",
+        alt: "inside St. Peter's Basilica",
+      },
+      {
+        src: "/blog-excursions-5.jpg",
+        alt: "the ceiling of the Sagrada Fam\u00edlia in Barcelona",
+      },
+      {
+        src: "/blog-excursions-6.jpg",
+        alt: "two pints at the Guinness Storehouse in Dublin",
+      },
+      {
+        src: "/blog-excursions.JPG",
+        alt: "overlook in the German countryside with a castle on the hill",
+      },
+      {
+        src: "/blog-excursions-8.jpg",
+        alt: "at the same overlook above the valley",
+      },
+    ],
     content: [
-      "Coming soon. This is where I will write about the bigger trips, the weekend excursions, the countries I made it to, and the castles and historic places I said I wanted to see back in my very first post.",
+      "This experience has been the perfect opportunity to explore Europe, and getting around here is genuinely easy in a way it just isn't back home. Cheap, though, comes with an asterisk.",
+
+      "Before I came over I kept hearing about plane tickets as low as 17 euros. That was not my experience. Between the Iran war moving fuel prices around and my own habit of booking a couple weeks out instead of a couple months out, I was paying somewhere between 100 and 150 euros for a one-way ticket. In fairness, every place I picked was a top-five tourist destination in peak season, so I was bidding against the rest of the continent for those seats. The cheap tickets are still out there if you're flexible on dates and willing to fly into a smaller airport. I just was never the guy planning that far ahead.",
+
+      "What actually kept the trips affordable was everything that wasn't a plane. FlixBus and the trains cover most of Western Europe for a fraction of the airfare, and an overnight bus doubles as the night's lodging. Almost every trip I took, the cheapest leg was the one on the ground.",
+
+      "The other reason any of this was possible is the vacation policy, which I've probably mentioned a million times in this blog already. Even as a student on co-op I got 18 days, and time off here isn't a perk you have to justify asking for, it's something you're owed. As I understand it, you're actually expected to take the days, and if you don't, the company ends up having to compensate you for them instead. So nobody is quietly hoping you'll skip your vacation to look dedicated, because leaving it on the table doesn't save them anything. That flips the whole dynamic compared to what I'm used to.",
+
+      "In practice that meant I took a week off for Paris in the spring, sat on the rest, and then spent almost all of it in one stretch at the end. Saving it up like that is what turned a few weekend trips into an actual run through Europe.",
+
+      "The first real trip was at the end of March, when my girlfriend came out to visit. We went to Paris for exactly one night, and the plan was almost stupidly efficient: a 35 euro FlixBus out of Köln at midnight, arriving in Paris around 7 a.m. You sleep through the part you'd otherwise pay a hotel for and you wake up in France.",
+
+      "We had the entire day to walk the city and see as much as we could fit, stayed one night in a hotel, and left the next day on the Eurostar. It was amazing, and it was also very clearly a highlight reel. My honest advice: if you're going to Paris, give it two or three days. One day is enough to see the big things and not enough to actually feel like you were there.",
+
+      "In early July we went to Amsterdam. Beautiful city, and there is good food on basically every street, which is also how it quietly drains your wallet. It's the most expensive place I went, food and lodging both, and it's worth knowing that going in rather than finding out at the register.",
+
+      "The single best thing I ate the whole trip was at a place called Lourens. They bake cookies on top of croissants. That's the whole idea and it is so good that I went back both days I was in the city. If you make it to Amsterdam and skip it, that's on you.",
+
+      "The city itself is very walkable, and between the canals and the sheer volume of bikes it makes the bike culture I'd gotten used to in Germany feel casual by comparison. Two days felt about right, though I could have easily stretched it to three if the prices were kinder.",
+
+      "Next was Rome, and I gave it real time. The Colosseum, the Vatican Museums, and then whatever ancient thing you happen to walk past on the way to lunch. That's the part that got me: the ruins aren't fenced off in one historical district, they're just sitting in the middle of the city like they're part of the street furniture.",
+
+      "The other side of Rome is the hustle. At one point I caught an older guy with his hand in my pocket. I got to it in time and nothing was lost, but the pickpocketing reputation Italy has is completely earned. On top of that there's a constant stream of people trying to shoehorn you into their restaurant or sell you something on the street. Keep your phone and wallet in a front or zipped pocket, and get comfortable saying no and continuing to walk.",
+
+      "Rome gets an 8/10 from me. The city is beautiful and the history is unmatched, and it loses points purely for how much of your attention it takes to keep track of your own stuff.",
+
+      "After that I spent a few days in Barcelona. I saw the Sagrada Família, which is the big church there and much stranger and more impressive in person than any picture of it suggests, and then spent the rest of the time on the beach. It was the most relaxed stop of the whole trip, and after Rome that was exactly what I wanted.",
+
+      "Then one last stop in Ireland for a Guinness before finally heading home. Not much of an itinerary, but it felt like the right way to close it out.",
+
+      "Adding it up, I got to six countries between January and now, and that's including the front end of this whole thing, when I landed in Germany on January 1st with my family and we spent the first stretch moving between Frankfurt, Cologne, Koblenz, and Bonn before I ever started work. In my very first post I said I wanted to explore more of Germany, visit nearby countries, and see as many historic places as possible. That one I actually delivered on.",
+
+      "If you're doing something like this, the short version of what I'd tell you: book flights earlier than I did, take the overnight bus at least once, give any real city two or three days instead of one, watch your pockets anywhere tourists cluster especially crowded areas, and save your vacation days up so you can take one long trip instead of five short ones. The days you save are worth more together than apart.",
     ],
   },
   {

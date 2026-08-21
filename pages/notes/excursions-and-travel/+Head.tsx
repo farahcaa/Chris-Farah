@@ -2,7 +2,7 @@ import SeoHead from "../../_components/SeoHead";
 
 const title = "Excursions and Travel - Christopher Farah";
 const description =
-  "Notes on the bigger trips taken while living and working in Germany: weekend excursions, nearby countries, castles, and historic places.";
+  "Notes on the bigger trips taken while living and working in Germany: Paris, Amsterdam, Rome, Barcelona, and Ireland, plus what European travel actually costs.";
 
 export default function Head() {
   return (
@@ -17,7 +17,7 @@ export default function Head() {
         "excursions",
         "travel in Europe",
         "weekend trips Germany",
-        "castles",
+        "budget travel Europe",
         "international internship",
       ]}
     />
