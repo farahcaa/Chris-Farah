@@ -23,6 +23,8 @@ function getEntryHref(topicSlug: string, entryId: string) {
     "book-02": "/notes/managing-rental-properties",
     "book-03": "/notes/essential-scrum",
     "book-04": "/notes/the-mom-test",
+    "book-05": "/notes/lean-b2b",
+    "book-06": "/notes/awaken-the-giant-within",
     "lifting-01": "/notes/weight-lifting",
   };
 
